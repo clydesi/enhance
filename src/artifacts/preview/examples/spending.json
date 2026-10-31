@@ -1,0 +1,851 @@
+{
+  "tool": "show_spending",
+  "input": {},
+  "answer": {
+    "stats": [
+      {
+        "key": "spent",
+        "value": "$10,113.39"
+      },
+      {
+        "key": "income",
+        "value": "$17,300.40"
+      },
+      {
+        "key": "purchases",
+        "value": "66"
+      }
+    ],
+    "owners": [
+      {
+        "id": "personal",
+        "name": "Personal",
+        "spent": "$4,880.32",
+        "count": "54 transactions",
+        "business": false,
+        "rows": [
+          {
+            "id": "personal.home",
+            "category": "Home",
+            "transactions": "2",
+            "spent": "$2,272.27",
+            "parent": true,
+            "show": {
+              "category": "personal.home",
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.home.rent",
+            "parent_id": "personal.home",
+            "category": "Rent",
+            "transactions": "1",
+            "spent": "$2,150.00",
+            "parent": false,
+            "show": {
+              "category": "personal.home.rent",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.home.home_supplies",
+            "parent_id": "personal.home",
+            "category": "Home Supplies",
+            "transactions": "1",
+            "spent": "$122.27",
+            "parent": false,
+            "show": {
+              "category": "personal.home.home_supplies",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.groceries",
+            "category": "Groceries",
+            "transactions": "10",
+            "spent": "$862.43",
+            "parent": true,
+            "show": {
+              "category": "personal.groceries",
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.groceries",
+            "parent_id": "personal.groceries",
+            "category": "Groceries",
+            "transactions": "10",
+            "spent": "$862.43",
+            "parent": false,
+            "show": {
+              "category": "personal.groceries",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.dining_drinks",
+            "category": "Dining & Drinks",
+            "transactions": "19",
+            "spent": "$646.54",
+            "parent": true,
+            "show": {
+              "category": "personal.dining_drinks",
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.dining_drinks.restaurants",
+            "parent_id": "personal.dining_drinks",
+            "category": "Restaurants",
+            "transactions": "2",
+            "spent": "$256.17",
+            "parent": false,
+            "show": {
+              "category": "personal.dining_drinks.restaurants",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.dining_drinks.food_delivery",
+            "parent_id": "personal.dining_drinks",
+            "category": "Food Delivery",
+            "transactions": "3",
+            "spent": "$125.94",
+            "parent": false,
+            "show": {
+              "category": "personal.dining_drinks.food_delivery",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.dining_drinks.dining_out",
+            "parent_id": "personal.dining_drinks",
+            "category": "Dining Out",
+            "transactions": "2",
+            "spent": "$98.32",
+            "parent": false,
+            "show": {
+              "category": "personal.dining_drinks.dining_out",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.dining_drinks.coffee_shops",
+            "parent_id": "personal.dining_drinks",
+            "category": "Coffee Shops",
+            "transactions": "7",
+            "spent": "$64.08",
+            "parent": false,
+            "show": {
+              "category": "personal.dining_drinks.coffee_shops",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.dining_drinks.fast_food",
+            "parent_id": "personal.dining_drinks",
+            "category": "Fast Food",
+            "transactions": "4",
+            "spent": "$59.68",
+            "parent": false,
+            "show": {
+              "category": "personal.dining_drinks.fast_food",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.dining_drinks.bars",
+            "parent_id": "personal.dining_drinks",
+            "category": "Bars",
+            "transactions": "1",
+            "spent": "$42.35",
+            "parent": false,
+            "show": {
+              "category": "personal.dining_drinks.bars",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.utilities",
+            "category": "Utilities",
+            "transactions": "4",
+            "spent": "$347.55",
+            "parent": true,
+            "show": {
+              "category": "personal.utilities",
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.utilities.gas_electric",
+            "parent_id": "personal.utilities",
+            "category": "Gas & Electric",
+            "transactions": "2",
+            "spent": "$182.16",
+            "parent": false,
+            "show": {
+              "category": "personal.utilities.gas_electric",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.utilities.mobile_phone",
+            "parent_id": "personal.utilities",
+            "category": "Mobile Phone",
+            "transactions": "1",
+            "spent": "$85.40",
+            "parent": false,
+            "show": {
+              "category": "personal.utilities.mobile_phone",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.utilities.internet_cable",
+            "parent_id": "personal.utilities",
+            "category": "Internet & Cable",
+            "transactions": "1",
+            "spent": "$79.99",
+            "parent": false,
+            "show": {
+              "category": "personal.utilities.internet_cable",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.auto_transport",
+            "category": "Auto & Transport",
+            "transactions": "10",
+            "spent": "$341.76",
+            "parent": true,
+            "show": {
+              "category": "personal.auto_transport",
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.auto_transport.gas_fuel",
+            "parent_id": "personal.auto_transport",
+            "category": "Gas & Fuel",
+            "transactions": "3",
+            "spent": "$171.07",
+            "parent": false,
+            "show": {
+              "category": "personal.auto_transport.gas_fuel",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.auto_transport.rideshare",
+            "parent_id": "personal.auto_transport",
+            "category": "Rideshare",
+            "transactions": "4",
+            "spent": "$79.85",
+            "parent": false,
+            "show": {
+              "category": "personal.auto_transport.rideshare",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.auto_transport.public_transportation",
+            "parent_id": "personal.auto_transport",
+            "category": "Public Transportation",
+            "transactions": "1",
+            "spent": "$50.00",
+            "parent": false,
+            "show": {
+              "category": "personal.auto_transport.public_transportation",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.auto_transport.parking",
+            "parent_id": "personal.auto_transport",
+            "category": "Parking",
+            "transactions": "2",
+            "spent": "$40.84",
+            "parent": false,
+            "show": {
+              "category": "personal.auto_transport.parking",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.shopping",
+            "category": "Shopping",
+            "transactions": "7",
+            "spent": "$302.19",
+            "parent": true,
+            "show": {
+              "category": "personal.shopping",
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.shopping",
+            "parent_id": "personal.shopping",
+            "category": "Shopping",
+            "transactions": "3",
+            "spent": "$255.72",
+            "parent": false,
+            "show": {
+              "category": "personal.shopping",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.shopping.streaming_service",
+            "parent_id": "personal.shopping",
+            "category": "Streaming Service",
+            "transactions": "2",
+            "spent": "$26.48",
+            "parent": false,
+            "show": {
+              "category": "personal.shopping.streaming_service",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.shopping.books",
+            "parent_id": "personal.shopping",
+            "category": "Books",
+            "transactions": "1",
+            "spent": "$17.00",
+            "parent": false,
+            "show": {
+              "category": "personal.shopping.books",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.shopping.membership_fees",
+            "parent_id": "personal.shopping",
+            "category": "Membership Fees",
+            "transactions": "1",
+            "spent": "$2.99",
+            "parent": false,
+            "show": {
+              "category": "personal.shopping.membership_fees",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.fitness",
+            "category": "Fitness",
+            "transactions": "1",
+            "spent": "$89.00",
+            "parent": true,
+            "show": {
+              "category": "personal.fitness",
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.fitness.gym",
+            "parent_id": "personal.fitness",
+            "category": "Gym",
+            "transactions": "1",
+            "spent": "$89.00",
+            "parent": false,
+            "show": {
+              "category": "personal.fitness.gym",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.health",
+            "category": "Health",
+            "transactions": "1",
+            "spent": "$18.58",
+            "parent": true,
+            "show": {
+              "category": "personal.health",
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "personal.health.pharmacy",
+            "parent_id": "personal.health",
+            "category": "Pharmacy",
+            "transactions": "1",
+            "spent": "$18.58",
+            "parent": false,
+            "show": {
+              "category": "personal.health.pharmacy",
+              "exact": true,
+              "owner": "personal",
+              "month": "2026-12",
+              "spending": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "ent_1",
+        "name": "Design Studio LLC",
+        "spent": "$645.42",
+        "count": "5 transactions",
+        "business": true,
+        "rows": [
+          {
+            "id": "business.rent_or_lease",
+            "category": "Rent or Lease",
+            "transactions": "1",
+            "spent": "$450.00",
+            "parent": true,
+            "show": {
+              "category": "business.rent_or_lease",
+              "owner": "ent_1",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "business.rent_or_lease.building_rent",
+            "parent_id": "business.rent_or_lease",
+            "category": "Building Rent",
+            "transactions": "1",
+            "spent": "$450.00",
+            "parent": false,
+            "show": {
+              "category": "business.rent_or_lease.building_rent",
+              "exact": true,
+              "owner": "ent_1",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "business.meals_clients_or_travel",
+            "category": "Meals (clients or travel)",
+            "transactions": "1",
+            "spent": "$115.02",
+            "parent": true,
+            "show": {
+              "category": "business.meals_clients_or_travel",
+              "owner": "ent_1",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "business.meals_clients_or_travel",
+            "parent_id": "business.meals_clients_or_travel",
+            "category": "Meals (clients or travel)",
+            "transactions": "1",
+            "spent": "$115.02",
+            "parent": false,
+            "show": {
+              "category": "business.meals_clients_or_travel",
+              "exact": true,
+              "owner": "ent_1",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "business.office_expenses",
+            "category": "Office Expenses",
+            "transactions": "3",
+            "spent": "$80.40",
+            "parent": true,
+            "show": {
+              "category": "business.office_expenses",
+              "owner": "ent_1",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "business.office_expenses.software",
+            "parent_id": "business.office_expenses",
+            "category": "Software",
+            "transactions": "2",
+            "spent": "$59.40",
+            "parent": false,
+            "show": {
+              "category": "business.office_expenses.software",
+              "exact": true,
+              "owner": "ent_1",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "business.office_expenses.web_services",
+            "parent_id": "business.office_expenses",
+            "category": "Web Services",
+            "transactions": "1",
+            "spent": "$21.00",
+            "parent": false,
+            "show": {
+              "category": "business.office_expenses.web_services",
+              "exact": true,
+              "owner": "ent_1",
+              "month": "2026-12",
+              "spending": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "acct_9",
+        "name": "Rental House",
+        "spent": "$4,587.65",
+        "count": "7 transactions",
+        "business": false,
+        "asset": true,
+        "rows": [
+          {
+            "id": "business.taxes_licenses",
+            "category": "Taxes & Licenses",
+            "transactions": "1",
+            "spent": "$2,150.00",
+            "parent": true,
+            "show": {
+              "category": "business.taxes_licenses",
+              "owner": "acct_9",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "business.taxes_licenses.property_tax",
+            "parent_id": "business.taxes_licenses",
+            "category": "Property Tax",
+            "transactions": "1",
+            "spent": "$2,150.00",
+            "parent": false,
+            "show": {
+              "category": "business.taxes_licenses.property_tax",
+              "exact": true,
+              "owner": "acct_9",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "business.debt_interest",
+            "category": "Debt & Interest",
+            "transactions": "1",
+            "spent": "$1,865.99",
+            "parent": true,
+            "show": {
+              "category": "business.debt_interest",
+              "owner": "acct_9",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "business.debt_interest.mortgage_interest",
+            "parent_id": "business.debt_interest",
+            "category": "Mortgage Interest",
+            "transactions": "1",
+            "spent": "$1,865.99",
+            "parent": false,
+            "show": {
+              "category": "business.debt_interest.mortgage_interest",
+              "exact": true,
+              "owner": "acct_9",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "business.commissions_fees",
+            "category": "Commissions & Fees",
+            "transactions": "1",
+            "spent": "$230.67",
+            "parent": true,
+            "show": {
+              "category": "business.commissions_fees",
+              "owner": "acct_9",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "business.commissions_fees.property_management",
+            "parent_id": "business.commissions_fees",
+            "category": "Property Management",
+            "transactions": "1",
+            "spent": "$230.67",
+            "parent": false,
+            "show": {
+              "category": "business.commissions_fees.property_management",
+              "exact": true,
+              "owner": "acct_9",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "business.repairs_maintenance",
+            "category": "Repairs & Maintenance",
+            "transactions": "2",
+            "spent": "$199.41",
+            "parent": true,
+            "show": {
+              "category": "business.repairs_maintenance",
+              "owner": "acct_9",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "business.repairs_maintenance.cleaning",
+            "parent_id": "business.repairs_maintenance",
+            "category": "Cleaning",
+            "transactions": "2",
+            "spent": "$199.41",
+            "parent": false,
+            "show": {
+              "category": "business.repairs_maintenance.cleaning",
+              "exact": true,
+              "owner": "acct_9",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "business.utilities",
+            "category": "Utilities",
+            "transactions": "2",
+            "spent": "$141.58",
+            "parent": true,
+            "show": {
+              "category": "business.utilities",
+              "owner": "acct_9",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "business.utilities.gas_electric",
+            "parent_id": "business.utilities",
+            "category": "Gas & Electric",
+            "transactions": "1",
+            "spent": "$98.94",
+            "parent": false,
+            "show": {
+              "category": "business.utilities.gas_electric",
+              "exact": true,
+              "owner": "acct_9",
+              "month": "2026-12",
+              "spending": true
+            }
+          },
+          {
+            "id": "business.utilities.water",
+            "parent_id": "business.utilities",
+            "category": "Water",
+            "transactions": "1",
+            "spent": "$42.64",
+            "parent": false,
+            "show": {
+              "category": "business.utilities.water",
+              "exact": true,
+              "owner": "acct_9",
+              "month": "2026-12",
+              "spending": true
+            }
+          }
+        ]
+      }
+    ],
+    "months": {
+      "rows": [
+        {
+          "month": "February 2026",
+          "spent": "$7,809.46",
+          "income": "$14,821.09",
+          "shown": false,
+          "key": "2026-02",
+          "short": "Feb",
+          "spent_cents": 780946
+        },
+        {
+          "month": "March 2026",
+          "spent": "$8,896.06",
+          "income": "$14,322.66",
+          "shown": false,
+          "key": "2026-03",
+          "short": "Mar",
+          "spent_cents": 889606
+        },
+        {
+          "month": "April 2026",
+          "spent": "$8,576.74",
+          "income": "$16,621.76",
+          "shown": false,
+          "key": "2026-04",
+          "short": "Apr",
+          "spent_cents": 857674
+        },
+        {
+          "month": "May 2026",
+          "spent": "$7,771.76",
+          "income": "$14,221.04",
+          "shown": false,
+          "key": "2026-05",
+          "short": "May",
+          "spent_cents": 777176
+        },
+        {
+          "month": "June 2026",
+          "spent": "$9,962.63",
+          "income": "$16,775.13",
+          "shown": false,
+          "key": "2026-06",
+          "short": "Jun",
+          "spent_cents": 996263
+        },
+        {
+          "month": "July 2026",
+          "spent": "$7,466.02",
+          "income": "$13,363.74",
+          "shown": false,
+          "key": "2026-07",
+          "short": "Jul",
+          "spent_cents": 746602
+        },
+        {
+          "month": "August 2026",
+          "spent": "$7,733.23",
+          "income": "$16,376.49",
+          "shown": false,
+          "key": "2026-08",
+          "short": "Aug",
+          "spent_cents": 773323
+        },
+        {
+          "month": "September 2026",
+          "spent": "$8,568.81",
+          "income": "$13,860.99",
+          "shown": false,
+          "key": "2026-09",
+          "short": "Sep",
+          "spent_cents": 856881
+        },
+        {
+          "month": "October 2026",
+          "spent": "$8,800.76",
+          "income": "$16,472.91",
+          "shown": false,
+          "key": "2026-10",
+          "short": "Oct",
+          "spent_cents": 880076
+        },
+        {
+          "month": "November 2026",
+          "spent": "$7,772.16",
+          "income": "$14,665.45",
+          "shown": false,
+          "key": "2026-11",
+          "short": "Nov",
+          "spent_cents": 777216
+        },
+        {
+          "month": "December 2026",
+          "spent": "$10,113.39",
+          "income": "$17,300.40",
+          "shown": true,
+          "key": "2026-12",
+          "short": "Dec",
+          "spent_cents": 1011339
+        },
+        {
+          "month": "January 2027",
+          "spent": "$9,762.10",
+          "income": "$14,441.91",
+          "shown": false,
+          "key": "2027-01",
+          "short": "Jan",
+          "spent_cents": 976210
+        }
+      ]
+    },
+    "stamp": "1"
+  }
+}

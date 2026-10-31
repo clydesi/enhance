@@ -1,0 +1,27 @@
+<!--
+Clyde artifact: Dashboard. Copyright 2026 Clyde Intelligence, LLC. SPDX-License-Identifier: Apache-2.0
+Version: 0.1.0
+Transactions, Accounts, and Spending in three tabs: every transaction by month, with
+search, sorting by any column, the pending block, and each row opened in place to edit its payee, category, tags, and
+note; net worth and every account by owner; and a month's spending, twelve months as a chart, by category. Its link can
+name the tab and what it shows (#tab=transactions&account=acct_1). It reads the ledger through the Clyde connector when
+it opens, when the user asks it for more, and when the ledger has changed (a small check when the user comes back to it,
+and every half minute while it is in sight), and changes it only when the user saves a transaction.
+Connector tools: show_transactions, show_accounts, show_spending, edit
+-->
+<title>Clyde Dashboard</title>
+<div class="mx-auto max-w-6xl px-4 pt-4 sm:px-6">
+<header class="flex items-start justify-between gap-4">
+<div class="min-w-0"><h1 data-title class="sr-only">Dashboard</h1><p data-subtitle class="py-1 text-base/6 wrap-anywhere text-mist-500 dark:text-mist-400" hidden></p></div>
+<div class="flex h-8 shrink-0 items-center"><span data-brand="logo" class="text-[#0b0d0e] dark:text-white [&>svg]:h-6 [&>svg]:w-auto">__LOGO__</span></div>
+</header>
+<div data-tabbar data-drawn class="border-b border-mist-950/10 dark:border-white/10">
+<div role="tablist" data-tabs aria-label="Dashboard" class="-ml-2 flex items-center gap-3 py-2.5"></div>
+</div>
+<div data-drawn class="*:min-w-0 *:pt-4">
+<section role="tabpanel" id="panel-transactions" aria-labelledby="tab-transactions" data-panel="transactions"></section>
+<section role="tabpanel" id="panel-accounts" aria-labelledby="tab-accounts" data-panel="accounts" hidden></section>
+<section role="tabpanel" id="panel-spending" aria-labelledby="tab-spending" data-panel="spending" hidden></section>
+</div>
+</div>
+<footer class="flex justify-center py-6"><span data-brand="icon" class="text-[#0b0d0e] dark:text-white [&>svg]:size-4">__ICON__</span></footer>

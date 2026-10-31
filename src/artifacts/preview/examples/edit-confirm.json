@@ -1,0 +1,42 @@
+{
+  "tool": "edit",
+  "input": {
+    "reason": "transaction_edit",
+    "ops": [
+      {
+        "op": "update_transaction",
+        "review_status": "reviewed",
+        "id": "txn_4",
+        "version": 1
+      },
+      {
+        "op": "set_splits",
+        "splits": [
+          {
+            "category": "personal.home.home_improvement"
+          }
+        ],
+        "id": "txn_4",
+        "version": 1
+      }
+    ]
+  },
+  "answer": {
+    "confirm_required": true,
+    "confirm_token": "preview-confirm",
+    "scope_changes": [
+      {
+        "before": [
+          {
+            "name": "Rental House"
+          }
+        ],
+        "after": [
+          {
+            "name": null
+          }
+        ]
+      }
+    ]
+  }
+}

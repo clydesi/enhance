@@ -1,0 +1,42 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - name: Base copies
+        env:
+          BASE: ${{ github.event_name == 'pull_request' && format('origin/{0}', github.base_ref) || 'HEAD^' }}
+        run: |
+          base="$BASE"
+          if [ "$GITHUB_EVENT_NAME" = pull_request ]; then git rev-parse --verify --quiet "$base^{commit}" > /dev/null || { echo "Base $base not found" >&2; exit 1; }; fi
+          git show "$base:categories/categories.json" > "$RUNNER_TEMP/categories.json" 2>/dev/null || : > "$RUNNER_TEMP/categories.json"
+          git show "$base:rules/rules.json" > "$RUNNER_TEMP/rules.json" 2>/dev/null || : > "$RUNNER_TEMP/rules.json"
+          git show "$base:categories/retired.json" > "$RUNNER_TEMP/categories-retired.json" 2>/dev/null || : > "$RUNNER_TEMP/categories-retired.json"
+          git show "$base:rules/retired.json" > "$RUNNER_TEMP/rules-retired.json" 2>/dev/null || : > "$RUNNER_TEMP/rules-retired.json"
+          mkdir -p "$RUNNER_TEMP/base/artifacts"
+          for file in artifacts/*.html; do git show "$base:$file" > "$RUNNER_TEMP/base/$file" 2>/dev/null || rm -f "$RUNNER_TEMP/base/$file"; done
+      - run: node categories/validate.ts --base "$RUNNER_TEMP/categories.json" --base-retired "$RUNNER_TEMP/categories-retired.json"
+      - run: node rules/validate.ts --base "$RUNNER_TEMP/rules.json" --base-retired "$RUNNER_TEMP/rules-retired.json"
+      - run: node lib/plugin/validate.ts
+      - run: node lib/artifacts/validate.ts --base "$RUNNER_TEMP/base"
+      - run: node lib/artifacts/build.ts --check
+      - run: node lib/artifacts/examples.ts --check

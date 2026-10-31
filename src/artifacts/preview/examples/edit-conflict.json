@@ -1,0 +1,22 @@
+{
+  "tool": "edit",
+  "input": {
+    "reason": "transaction_edit",
+    "ops": [
+      {
+        "op": "update_transaction",
+        "review_status": "reviewed",
+        "notes": "Two nights",
+        "id": "txn_9",
+        "version": 1
+      }
+    ]
+  },
+  "error": {
+    "error": "conflict",
+    "message": "This transaction changed since you read it.",
+    "details": {
+      "txn_9": 2
+    }
+  }
+}

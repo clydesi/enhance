@@ -1,0 +1,85 @@
+{
+  "tool": "show_transactions",
+  "input": {
+    "transaction": "txn_2"
+  },
+  "answer": {
+    "row": {
+      "date": "Jan 31, 2027",
+      "account": "Travel Rewards Card",
+      "payee": "Online Marketplace",
+      "category_name": "Split",
+      "mark": "split_business",
+      "tags": "",
+      "notes": "",
+      "amount": "$184.97",
+      "direction": "out",
+      "business": true,
+      "id": "txn_2",
+      "version": 1
+    },
+    "badges": [],
+    "facts": [
+      {
+        "key": "posted",
+        "value": "Jan 31, 2027"
+      },
+      {
+        "key": "statement_description",
+        "value": "ONLINE MKTPLACE*7Q2W"
+      },
+      {
+        "key": "statement_account",
+        "value": "TRAVEL REWARDS VISA ...4421"
+      },
+      {
+        "key": "account",
+        "value": "Travel Rewards Card"
+      },
+      {
+        "key": "for",
+        "value": "Design Studio LLC (Sch C L22)"
+      },
+      {
+        "key": "transacted",
+        "value": "Jan 30, 2027"
+      }
+    ],
+    "edit": {
+      "payee": "Online Marketplace",
+      "category_id": null,
+      "scope_id": null,
+      "tags": [],
+      "notes": ""
+    },
+    "splits": {
+      "columns": [
+        {
+          "key": "category",
+          "label": "Category",
+          "type": "text"
+        },
+        {
+          "key": "amount",
+          "label": "Amount",
+          "type": "money"
+        }
+      ],
+      "rows": [
+        {
+          "category_name": "Office Supplies",
+          "mark": "business",
+          "amount": "$129.99",
+          "direction": "out",
+          "business": true
+        },
+        {
+          "category_name": "Home Supplies",
+          "amount": "$54.98",
+          "direction": "out"
+        }
+      ]
+    },
+    "stamp": "1"
+  }
+}

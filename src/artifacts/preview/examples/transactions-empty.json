@@ -1,0 +1,15 @@
+{
+  "tool": "show_transactions",
+  "input": {
+    "search": "no such payee",
+    "limit": 20
+  },
+  "answer": {
+    "heading": "0 matches",
+    "chip": null,
+    "next": null,
+    "sections": [],
+    "empty": "There are no transactions to show.",
+    "stamp": "1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "clyde",
+  "owner": {
+    "name": "Clyde Intelligence, LLC",
+    "email": "dev@clyde.si"
+  },
+  "metadata": {
+    "description": "One ledger, every AI app. Clyde is a ledger as a service for your personal, LLC, and rental property finances. Ask your agent and see it your way."
+  },
+  "plugins": [
+    {
+      "name": "clyde",
+      "source": "./plugin",
+      "description": "One ledger, every AI app. Clyde is a ledger as a service for your personal, LLC, and rental property finances. Ask your agent and see it your way."
+    }
+  ]
+}

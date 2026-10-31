@@ -1,0 +1,203 @@
+{
+  "tool": "show_accounts",
+  "input": {},
+  "answer": {
+    "totals": [
+      {
+        "key": "net_worth",
+        "value": "$558,506.96"
+      },
+      {
+        "key": "held",
+        "value": "$874,550.32"
+      },
+      {
+        "key": "owed",
+        "value": "$316,043.36"
+      }
+    ],
+    "accounts": "13 accounts",
+    "businesses_and_assets": {
+      "total": "$509,600.00",
+      "count": "2",
+      "top": [
+        {
+          "id": "acct_9",
+          "name": "Rental House",
+          "kind": "Real Estate",
+          "asset": true,
+          "total": "$485,000.00"
+        },
+        {
+          "id": "ent_1",
+          "name": "Design Studio LLC",
+          "kind": "Business",
+          "business": true,
+          "total": "$24,600.00"
+        }
+      ]
+    },
+    "owners": [
+      {
+        "id": "personal",
+        "name": "Personal",
+        "business": false,
+        "total": "$533,906.96",
+        "number": "12",
+        "sections": [
+          {
+            "name": "Banking",
+            "total": "$82,106.96",
+            "number": "7",
+            "groups": [
+              {
+                "name": "Cash and checking",
+                "total": "$18,450.32",
+                "number": "1",
+                "rows": [
+                  {
+                    "id": "acct_1",
+                    "name": "Everyday Checking",
+                    "type": "Checking",
+                    "balance": "$18,450.32"
+                  }
+                ]
+              },
+              {
+                "name": "Credit",
+                "total": "-$3,643.36",
+                "number": "4",
+                "rows": [
+                  {
+                    "id": "acct_5",
+                    "name": "Cash Back Card",
+                    "type": "Credit Card",
+                    "balance": "-$603.26"
+                  },
+                  {
+                    "id": "acct_4",
+                    "name": "Premium Card",
+                    "type": "Credit Card",
+                    "balance": "-$1,572.25"
+                  },
+                  {
+                    "id": "acct_12",
+                    "name": "Store Card",
+                    "type": "Credit Card",
+                    "balance": "$0.00",
+                    "closed": true,
+                    "empty": true
+                  },
+                  {
+                    "id": "acct_3",
+                    "name": "Travel Rewards Card",
+                    "type": "Credit Card",
+                    "balance": "-$1,467.85"
+                  }
+                ]
+              },
+              {
+                "name": "Savings",
+                "total": "$67,300.00",
+                "number": "2",
+                "rows": [
+                  {
+                    "id": "acct_2",
+                    "name": "High-Yield Savings",
+                    "type": "Savings",
+                    "balance": "$64,200.00"
+                  },
+                  {
+                    "id": "acct_11",
+                    "name": "Holiday Savings",
+                    "type": "Savings",
+                    "balance": "$3,100.00"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Investments",
+            "total": "$279,200.00",
+            "number": "3",
+            "rows": [
+              {
+                "id": "acct_6",
+                "name": "Brokerage",
+                "type": "Brokerage",
+                "balance": "$182,400.00"
+              },
+              {
+                "id": "acct_13",
+                "name": "Old Brokerage",
+                "type": "Brokerage",
+                "balance": "",
+                "closed": true,
+                "empty": true
+              },
+              {
+                "id": "acct_7",
+                "name": "Rollover IRA",
+                "type": "IRA",
+                "balance": "$96,800.00",
+                "empty": true
+              }
+            ]
+          },
+          {
+            "name": "Assets",
+            "total": "$485,000.00",
+            "number": "1",
+            "rows": [
+              {
+                "id": "acct_9",
+                "name": "Rental House",
+                "type": "Real Estate",
+                "balance": "$485,000.00",
+                "asset": true
+              }
+            ]
+          },
+          {
+            "name": "Loans",
+            "total": "-$312,400.00",
+            "number": "1",
+            "rows": [
+              {
+                "id": "acct_10",
+                "name": "Rental House Mortgage",
+                "type": "Mortgage",
+                "balance": "-$312,400.00"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ent_1",
+        "name": "Design Studio LLC",
+        "business": true,
+        "total": "$24,600.00",
+        "number": "1",
+        "sections": [
+          {
+            "name": "Banking",
+            "total": "$24,600.00",
+            "number": "1",
+            "rows": [
+              {
+                "id": "acct_8",
+                "name": "Business Checking",
+                "type": "Checking",
+                "balance": "$24,600.00",
+                "business": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "stamp": "1"
+  }
+}

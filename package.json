@@ -1,0 +1,28 @@
+{
+  "name": "@clydesi/enhance",
+  "version": "0.1.0",
+  "description": "Enhance Clyde with ready-made rules, categories, artifacts, and plugins.",
+  "keywords": ["personal-finance", "bookkeeping", "mcp", "agent-skills", "agent-plugins"],
+  "homepage": "https://www.clyde.si",
+  "bugs": { "url": "https://github.com/clydesi/enhance/issues", "email": "dev@clyde.si" },
+  "repository": { "type": "git", "url": "git+https://github.com/clydesi/enhance.git" },
+  "license": "Apache-2.0",
+  "author": { "name": "Clyde Intelligence, LLC", "email": "info@clyde.si", "url": "https://www.clyde.si" },
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=26" },
+  "scripts": {
+    "typecheck": "tsc -p . && tsc -p tsconfig.shared.json && tsc -p src/artifacts",
+    "validate": "node categories/validate.ts && node rules/validate.ts && node lib/plugin/validate.ts && node lib/artifacts/validate.ts && node lib/artifacts/build.ts --check && node lib/artifacts/examples.ts --check",
+    "build": "node lib/artifacts/build.ts",
+    "preview": "node lib/artifacts/preview.ts",
+    "test": "node --test test/"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "4.3.3",
+    "@types/node": "26.6.4",
+    "esbuild": "0.28.1",
+    "tailwindcss": "4.3.3",
+    "typescript": "7.0.2"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "tool": "show_transactions",
+  "input": {
+    "limit": 5
+  },
+  "answer": {
+    "heading": "Transactions \u00b7 1,053",
+    "chip": null,
+    "next": {
+      "offset": 5
+    },
+    "sections": [
+      {
+        "label": "Pending",
+        "rows": [
+          {
+            "pending": true,
+            "number": "P1",
+            "date": "Jan 31, 2027",
+            "account": "Travel Rewards Card",
+            "payee": "RIDESHARE *TRIP",
+            "category": "Pending",
+            "statement_description": "RIDESHARE *TRIP",
+            "tags": "",
+            "notes": "",
+            "amount": "$24.10",
+            "direction": "out",
+            "seen": "Jan 31, 2027"
+          },
+          {
+            "pending": true,
+            "number": "P2",
+            "date": "Jan 31, 2027",
+            "account": "Cash Back Card",
+            "payee": "SQ *ROASTERY CAFE",
+            "category": "Pending",
+            "statement_description": "SQ *ROASTERY CAFE",
+            "tags": "",
+            "notes": "",
+            "amount": "$6.25",
+            "direction": "out",
+            "seen": "Jan 31, 2027"
+          },
+          {
+            "pending": true,
+            "number": "P3",
+            "date": "Jan 30, 2027",
+            "account": "Premium Card",
+            "payee": "GAS STATION 4417",
+            "category": "Pending",
+            "statement_description": "GAS STATION 4417",
+            "tags": "",
+            "notes": "",
+            "amount": "$58.30",
+            "direction": "out",
+            "seen": "Jan 31, 2027"
+          }
+        ]
+      },
+      {
+        "label": "January 2027",
+        "rows": [
+          {
+            "number": "1",
+            "date": "Jan 31, 2027",
+            "account": "Premium Card",
+            "payee": "Warehouse Club",
+            "category_name": "Split",
+            "mark": "split",
+            "tags": "",
+            "notes": "",
+            "amount": "$236.40",
+            "direction": "out",
+            "id": "txn_1",
+            "version": 1
+          },
+          {
+            "number": "2",
+            "date": "Jan 31, 2027",
+            "account": "Travel Rewards Card",
+            "payee": "Online Marketplace",
+            "category_name": "Split",
+            "mark": "split_business",
+            "tags": "",
+            "notes": "",
+            "amount": "$184.97",
+            "direction": "out",
+            "business": true,
+            "id": "txn_2",
+            "version": 1
+          },
+          {
+            "number": "3",
+            "date": "Jan 31, 2027",
+            "account": "Business Checking",
+            "payee": "Print Shop",
+            "category_name": "Printing",
+            "mark": "business",
+            "tags": "",
+            "notes": "",
+            "amount": "$68.75",
+            "direction": "out",
+            "business": true,
+            "id": "txn_3",
+            "version": 1
+          },
+          {
+            "number": "4",
+            "date": "Jan 30, 2027",
+            "account": "Everyday Checking",
+            "payee": "Lake Handyman",
+            "category_name": "Repairs",
+            "mark": "business",
+            "tags": "",
+            "notes": "",
+            "amount": "$260.00",
+            "direction": "out",
+            "asset": true,
+            "id": "txn_4",
+            "version": 1
+          },
+          {
+            "number": "5",
+            "date": "Jan 30, 2027",
+            "account": "Travel Rewards Card",
+            "payee": "Department Store",
+            "category_name": "Clothing",
+            "tags": "",
+            "notes": "",
+            "amount": "$318.40",
+            "direction": "out",
+            "id": "txn_5",
+            "version": 1,
+            "badges": [
+              {
+                "key": "flagged",
+                "text": "Flagged",
+                "meaning": "warning"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "stamp": "1"
+  }
+}

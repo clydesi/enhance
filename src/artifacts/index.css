@@ -1,0 +1,83 @@
+@import "tailwindcss" source(none);
+@source "./";
+@source not inline("blur filter shadow grow");
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-mist-50: oklch(98.7% 0.002 197.1);
+  --color-mist-100: oklch(96.3% 0.002 197.1);
+  --color-mist-200: oklch(92.5% 0.005 214.3);
+  --color-mist-300: oklch(87.2% 0.007 219.6);
+  --color-mist-400: oklch(72.3% 0.014 214.4);
+  --color-mist-500: oklch(56% 0.021 213.5);
+  --color-mist-600: oklch(45% 0.017 213.2);
+  --color-mist-700: oklch(37.8% 0.015 216);
+  --color-mist-800: oklch(27.5% 0.011 216.9);
+  --color-mist-900: oklch(21.8% 0.008 223.9);
+  --color-mist-950: oklch(14.8% 0.004 228.8);
+  --color-ink: #1A1A1A;
+  --color-white: #F8F7F6;
+  --color-teal: #43E6D6;
+  --color-saved: color-mix(in oklab, oklch(44.8% 0.119 151.328) 22%, transparent);
+
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-display: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  --animate-saved: saved 4s linear both;
+  @keyframes saved {
+    from { background-color: var(--color-saved); }
+    to { background-color: transparent; }
+  }
+}
+
+@layer base {
+  :root {
+    @variant dark {
+      --color-saved: color-mix(in oklab, oklch(62.7% 0.194 149.214) 32%, transparent);
+    }
+  }
+
+  html {
+    @apply scheme-light dark:scheme-dark dark:antialiased;
+
+    a, button, input, select, textarea, [tabindex] {
+      &:focus-visible {
+        @apply outline-2 outline-offset-2 outline-teal-700 dark:outline-teal;
+      }
+    }
+  }
+
+  button:not(:disabled), [role="button"]:not([aria-disabled="true"]), [role="option"]:not([aria-disabled="true"]), label:has(> input[type="checkbox"]:not(:disabled)), input[type="checkbox"]:not(:disabled), summary {
+    cursor: pointer;
+  }
+
+  [aria-busy="true"], [aria-busy="true"] * {
+    cursor: progress;
+  }
+
+  [data-brand] [fill="#43E6D6"] {
+    fill: #0d9488;
+    @variant dark {
+      fill: var(--color-teal);
+    }
+  }
+}
+
+html,
+html body {
+  background-color: var(--color-mist-100);
+  color: var(--color-mist-700);
+}
+html.dark,
+html.dark body {
+  background-color: var(--color-mist-950);
+  color: var(--color-mist-400);
+}
+body {
+  font: inherit;
+}
+:root.dark {
+  color-scheme: dark;
+}

@@ -1,0 +1,2565 @@
+[
+  {
+    "id": "business.advertising",
+    "root": "business",
+    "parent_id": null,
+    "name": "Advertising",
+    "type": "expense",
+    "schedule_c_line": "8",
+    "schedule_e_line": "5"
+  },
+  {
+    "id": "business.business_income",
+    "root": "business",
+    "parent_id": null,
+    "name": "Business Income",
+    "type": "income",
+    "schedule_c_line": "1",
+    "schedule_e_line": "3"
+  },
+  {
+    "id": "business.business_income.affiliate_income",
+    "root": "business",
+    "parent_id": "business.business_income",
+    "name": "Affiliate Income",
+    "type": "income",
+    "schedule_c_line": "1",
+    "schedule_e_line": "3"
+  },
+  {
+    "id": "business.business_income.billable_expense_income",
+    "root": "business",
+    "parent_id": "business.business_income",
+    "name": "Billable Expense Income",
+    "type": "income",
+    "schedule_c_line": "1",
+    "schedule_e_line": "3"
+  },
+  {
+    "id": "business.business_income.consulting_income",
+    "root": "business",
+    "parent_id": "business.business_income",
+    "name": "Consulting Income",
+    "type": "income",
+    "schedule_c_line": "1",
+    "schedule_e_line": "3"
+  },
+  {
+    "id": "business.business_income.discounts_given",
+    "root": "business",
+    "parent_id": "business.business_income",
+    "name": "Discounts Given",
+    "type": "income",
+    "schedule_c_line": "2",
+    "schedule_e_line": "3"
+  },
+  {
+    "id": "business.business_income.interest_income",
+    "root": "business",
+    "parent_id": "business.business_income",
+    "name": "Interest Income",
+    "type": "income",
+    "schedule_c_line": "6",
+    "schedule_e_line": null
+  },
+  {
+    "id": "business.business_income.markup",
+    "root": "business",
+    "parent_id": "business.business_income",
+    "name": "Markup",
+    "type": "income",
+    "schedule_c_line": "1",
+    "schedule_e_line": "3"
+  },
+  {
+    "id": "business.business_income.other_income",
+    "root": "business",
+    "parent_id": "business.business_income",
+    "name": "Other Income",
+    "type": "income",
+    "schedule_c_line": "6",
+    "schedule_e_line": "3"
+  },
+  {
+    "id": "business.business_income.rents_received",
+    "root": "business",
+    "parent_id": "business.business_income",
+    "name": "Rents Received",
+    "type": "income",
+    "schedule_c_line": "1",
+    "schedule_e_line": "3"
+  },
+  {
+    "id": "business.business_income.returns_allowances",
+    "root": "business",
+    "parent_id": "business.business_income",
+    "name": "Returns & Allowances",
+    "type": "income",
+    "schedule_c_line": "2",
+    "schedule_e_line": "3"
+  },
+  {
+    "id": "business.business_income.royalties_received",
+    "root": "business",
+    "parent_id": "business.business_income",
+    "name": "Royalties Received",
+    "type": "income",
+    "schedule_c_line": "6",
+    "schedule_e_line": "4"
+  },
+  {
+    "id": "business.business_income.sales",
+    "root": "business",
+    "parent_id": "business.business_income",
+    "name": "Sales",
+    "type": "income",
+    "schedule_c_line": "1",
+    "schedule_e_line": "3"
+  },
+  {
+    "id": "business.business_income.sales_of_products",
+    "root": "business",
+    "parent_id": "business.business_income",
+    "name": "Sales of Products",
+    "type": "income",
+    "schedule_c_line": "1",
+    "schedule_e_line": "3"
+  },
+  {
+    "id": "business.business_income.sales_of_purchased_goods",
+    "root": "business",
+    "parent_id": "business.business_income",
+    "name": "Sales of Purchased Goods",
+    "type": "income",
+    "schedule_c_line": "1",
+    "schedule_e_line": "3"
+  },
+  {
+    "id": "business.business_income.tip_income",
+    "root": "business",
+    "parent_id": "business.business_income",
+    "name": "Tip Income",
+    "type": "income",
+    "schedule_c_line": "1",
+    "schedule_e_line": "3"
+  },
+  {
+    "id": "business.car_truck",
+    "root": "business",
+    "parent_id": null,
+    "name": "Car & Truck",
+    "type": "expense",
+    "schedule_c_line": "9",
+    "schedule_e_line": "6"
+  },
+  {
+    "id": "business.car_truck.car_insurance",
+    "root": "business",
+    "parent_id": "business.car_truck",
+    "name": "Car Insurance",
+    "type": "expense",
+    "schedule_c_line": "9",
+    "schedule_e_line": "6"
+  },
+  {
+    "id": "business.car_truck.car_lease",
+    "root": "business",
+    "parent_id": "business.car_truck",
+    "name": "Car Lease",
+    "type": "expense",
+    "schedule_c_line": "20a",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.car_truck.car_loan_interest",
+    "root": "business",
+    "parent_id": "business.car_truck",
+    "name": "Car Loan Interest",
+    "type": "expense",
+    "schedule_c_line": "16b",
+    "schedule_e_line": "13"
+  },
+  {
+    "id": "business.car_truck.car_wash",
+    "root": "business",
+    "parent_id": "business.car_truck",
+    "name": "Car Wash",
+    "type": "expense",
+    "schedule_c_line": "9",
+    "schedule_e_line": "6"
+  },
+  {
+    "id": "business.car_truck.gas_fuel",
+    "root": "business",
+    "parent_id": "business.car_truck",
+    "name": "Gas & Fuel",
+    "type": "expense",
+    "schedule_c_line": "9",
+    "schedule_e_line": "6"
+  },
+  {
+    "id": "business.car_truck.parking_tolls",
+    "root": "business",
+    "parent_id": "business.car_truck",
+    "name": "Parking & Tolls",
+    "type": "expense",
+    "schedule_c_line": "9",
+    "schedule_e_line": "6"
+  },
+  {
+    "id": "business.car_truck.registration",
+    "root": "business",
+    "parent_id": "business.car_truck",
+    "name": "Registration",
+    "type": "expense",
+    "schedule_c_line": "9",
+    "schedule_e_line": "6"
+  },
+  {
+    "id": "business.car_truck.service_parts",
+    "root": "business",
+    "parent_id": "business.car_truck",
+    "name": "Service & Parts",
+    "type": "expense",
+    "schedule_c_line": "9",
+    "schedule_e_line": "6"
+  },
+  {
+    "id": "business.commissions_fees",
+    "root": "business",
+    "parent_id": null,
+    "name": "Commissions & Fees",
+    "type": "expense",
+    "schedule_c_line": "10",
+    "schedule_e_line": "8"
+  },
+  {
+    "id": "business.commissions_fees.bank_fees",
+    "root": "business",
+    "parent_id": "business.commissions_fees",
+    "name": "Bank Fees",
+    "type": "expense",
+    "schedule_c_line": "10",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.commissions_fees.commissions",
+    "root": "business",
+    "parent_id": "business.commissions_fees",
+    "name": "Commissions",
+    "type": "expense",
+    "schedule_c_line": "10",
+    "schedule_e_line": "8"
+  },
+  {
+    "id": "business.commissions_fees.processing_fees",
+    "root": "business",
+    "parent_id": "business.commissions_fees",
+    "name": "Processing Fees",
+    "type": "expense",
+    "schedule_c_line": "10",
+    "schedule_e_line": "8"
+  },
+  {
+    "id": "business.commissions_fees.property_management",
+    "root": "business",
+    "parent_id": "business.commissions_fees",
+    "name": "Property Management",
+    "type": "expense",
+    "schedule_c_line": "10",
+    "schedule_e_line": "11"
+  },
+  {
+    "id": "business.cost_of_goods_sold",
+    "root": "business",
+    "parent_id": null,
+    "name": "Cost of Goods Sold",
+    "type": "expense",
+    "schedule_c_line": "42",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.cost_of_goods_sold.labor_cogs",
+    "root": "business",
+    "parent_id": "business.cost_of_goods_sold",
+    "name": "Labor (COGS)",
+    "type": "expense",
+    "schedule_c_line": "37",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.cost_of_goods_sold.materials_supplies",
+    "root": "business",
+    "parent_id": "business.cost_of_goods_sold",
+    "name": "Materials & Supplies",
+    "type": "expense",
+    "schedule_c_line": "38",
+    "schedule_e_line": "15"
+  },
+  {
+    "id": "business.cost_of_goods_sold.other_cogs",
+    "root": "business",
+    "parent_id": "business.cost_of_goods_sold",
+    "name": "Other (COGS)",
+    "type": "expense",
+    "schedule_c_line": "39",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.cost_of_goods_sold.purchases_cogs",
+    "root": "business",
+    "parent_id": "business.cost_of_goods_sold",
+    "name": "Purchases (COGS)",
+    "type": "expense",
+    "schedule_c_line": "36",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.debt_interest",
+    "root": "business",
+    "parent_id": null,
+    "name": "Debt & Interest",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": "13"
+  },
+  {
+    "id": "business.debt_interest.credit_card_interest",
+    "root": "business",
+    "parent_id": "business.debt_interest",
+    "name": "Credit Card Interest",
+    "type": "expense",
+    "schedule_c_line": "16b",
+    "schedule_e_line": "13"
+  },
+  {
+    "id": "business.debt_interest.loan_fees",
+    "root": "business",
+    "parent_id": "business.debt_interest",
+    "name": "Loan Fees",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": "13"
+  },
+  {
+    "id": "business.debt_interest.loan_interest",
+    "root": "business",
+    "parent_id": "business.debt_interest",
+    "name": "Loan Interest",
+    "type": "expense",
+    "schedule_c_line": "16b",
+    "schedule_e_line": "13"
+  },
+  {
+    "id": "business.debt_interest.mortgage_fees",
+    "root": "business",
+    "parent_id": "business.debt_interest",
+    "name": "Mortgage Fees",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": "12"
+  },
+  {
+    "id": "business.debt_interest.mortgage_interest",
+    "root": "business",
+    "parent_id": "business.debt_interest",
+    "name": "Mortgage Interest",
+    "type": "expense",
+    "schedule_c_line": "16a",
+    "schedule_e_line": "12"
+  },
+  {
+    "id": "business.depletion",
+    "root": "business",
+    "parent_id": null,
+    "name": "Depletion",
+    "type": "expense",
+    "schedule_c_line": "12",
+    "schedule_e_line": "18"
+  },
+  {
+    "id": "business.depreciable_assets_form_4562",
+    "root": "business",
+    "parent_id": null,
+    "name": "Depreciable Assets (Form 4562)",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "business.depreciable_assets_form_4562.property_improvements",
+    "root": "business",
+    "parent_id": "business.depreciable_assets_form_4562",
+    "name": "Property Improvements",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "business.depreciation",
+    "root": "business",
+    "parent_id": null,
+    "name": "Depreciation",
+    "type": "expense",
+    "schedule_c_line": "13",
+    "schedule_e_line": "18"
+  },
+  {
+    "id": "business.employee_benefit_programs",
+    "root": "business",
+    "parent_id": null,
+    "name": "Employee Benefit Programs",
+    "type": "expense",
+    "schedule_c_line": "14",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.home_office",
+    "root": "business",
+    "parent_id": null,
+    "name": "Home Office",
+    "type": "expense",
+    "schedule_c_line": "30",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.home_office.insurance_home",
+    "root": "business",
+    "parent_id": "business.home_office",
+    "name": "Insurance (home)",
+    "type": "expense",
+    "schedule_c_line": "30",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.home_office.mortgage_interest_home",
+    "root": "business",
+    "parent_id": "business.home_office",
+    "name": "Mortgage Interest (home)",
+    "type": "expense",
+    "schedule_c_line": "30",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.home_office.property_taxes_home",
+    "root": "business",
+    "parent_id": "business.home_office",
+    "name": "Property Taxes (home)",
+    "type": "expense",
+    "schedule_c_line": "30",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.home_office.rent_home",
+    "root": "business",
+    "parent_id": "business.home_office",
+    "name": "Rent (home)",
+    "type": "expense",
+    "schedule_c_line": "30",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.home_office.repairs_maintenance_home",
+    "root": "business",
+    "parent_id": "business.home_office",
+    "name": "Repairs & Maintenance (home)",
+    "type": "expense",
+    "schedule_c_line": "30",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.home_office.utilities_home",
+    "root": "business",
+    "parent_id": "business.home_office",
+    "name": "Utilities (home)",
+    "type": "expense",
+    "schedule_c_line": "30",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.insurance_other_than_health",
+    "root": "business",
+    "parent_id": null,
+    "name": "Insurance, other than health",
+    "type": "expense",
+    "schedule_c_line": "15",
+    "schedule_e_line": "9"
+  },
+  {
+    "id": "business.legal_professional_services",
+    "root": "business",
+    "parent_id": null,
+    "name": "Legal & Professional Services",
+    "type": "expense",
+    "schedule_c_line": "17",
+    "schedule_e_line": "10"
+  },
+  {
+    "id": "business.meals_clients_or_travel",
+    "root": "business",
+    "parent_id": null,
+    "name": "Meals (clients or travel)",
+    "type": "expense",
+    "schedule_c_line": "24b",
+    "schedule_e_line": "6"
+  },
+  {
+    "id": "business.non_deductible_expenses",
+    "root": "business",
+    "parent_id": null,
+    "name": "Non-Deductible Expenses",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "business.office_expenses",
+    "root": "business",
+    "parent_id": null,
+    "name": "Office Expenses",
+    "type": "expense",
+    "schedule_c_line": "18",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.office_expenses.computers_electronics",
+    "root": "business",
+    "parent_id": "business.office_expenses",
+    "name": "Computers & Electronics",
+    "type": "expense",
+    "schedule_c_line": "18",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.office_expenses.furnishings",
+    "root": "business",
+    "parent_id": "business.office_expenses",
+    "name": "Furnishings",
+    "type": "expense",
+    "schedule_c_line": "18",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.office_expenses.postage_shipping",
+    "root": "business",
+    "parent_id": "business.office_expenses",
+    "name": "Postage & Shipping",
+    "type": "expense",
+    "schedule_c_line": "18",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.office_expenses.printing",
+    "root": "business",
+    "parent_id": "business.office_expenses",
+    "name": "Printing",
+    "type": "expense",
+    "schedule_c_line": "18",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.office_expenses.software",
+    "root": "business",
+    "parent_id": "business.office_expenses",
+    "name": "Software",
+    "type": "expense",
+    "schedule_c_line": "18",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.office_expenses.subscriptions",
+    "root": "business",
+    "parent_id": "business.office_expenses",
+    "name": "Subscriptions",
+    "type": "expense",
+    "schedule_c_line": "18",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.office_expenses.web_services",
+    "root": "business",
+    "parent_id": "business.office_expenses",
+    "name": "Web Services",
+    "type": "expense",
+    "schedule_c_line": "18",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.office_supplies",
+    "root": "business",
+    "parent_id": null,
+    "name": "Office Supplies",
+    "type": "expense",
+    "schedule_c_line": "22",
+    "schedule_e_line": "15"
+  },
+  {
+    "id": "business.other_expenses",
+    "root": "business",
+    "parent_id": null,
+    "name": "Other Expenses",
+    "type": "expense",
+    "schedule_c_line": "27b",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.other_expenses.bad_debt",
+    "root": "business",
+    "parent_id": "business.other_expenses",
+    "name": "Bad debt",
+    "type": "expense",
+    "schedule_c_line": "27b",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.other_expenses.business_gifts",
+    "root": "business",
+    "parent_id": "business.other_expenses",
+    "name": "Business Gifts",
+    "type": "expense",
+    "schedule_c_line": "27b",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.other_expenses.drinking_water",
+    "root": "business",
+    "parent_id": "business.other_expenses",
+    "name": "Drinking Water",
+    "type": "expense",
+    "schedule_c_line": "27b",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.other_expenses.dues_memberships",
+    "root": "business",
+    "parent_id": "business.other_expenses",
+    "name": "Dues & Memberships",
+    "type": "expense",
+    "schedule_c_line": "27b",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.other_expenses.educational_materials",
+    "root": "business",
+    "parent_id": "business.other_expenses",
+    "name": "Educational Materials",
+    "type": "expense",
+    "schedule_c_line": "27b",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.other_expenses.educational_tuition",
+    "root": "business",
+    "parent_id": "business.other_expenses",
+    "name": "Educational Tuition",
+    "type": "expense",
+    "schedule_c_line": "27b",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.other_expenses.hoa_fees",
+    "root": "business",
+    "parent_id": "business.other_expenses",
+    "name": "HOA Fees",
+    "type": "expense",
+    "schedule_c_line": "27b",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.other_expenses.laundry",
+    "root": "business",
+    "parent_id": "business.other_expenses",
+    "name": "Laundry",
+    "type": "expense",
+    "schedule_c_line": "27b",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.other_expenses.rewards_rebates",
+    "root": "business",
+    "parent_id": "business.other_expenses",
+    "name": "Rewards & Rebates",
+    "type": "expense",
+    "schedule_c_line": "27b",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.pension_profit_sharing",
+    "root": "business",
+    "parent_id": null,
+    "name": "Pension & Profit Sharing",
+    "type": "expense",
+    "schedule_c_line": "19",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.rent_or_lease",
+    "root": "business",
+    "parent_id": null,
+    "name": "Rent or Lease",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.rent_or_lease.building_rent",
+    "root": "business",
+    "parent_id": "business.rent_or_lease",
+    "name": "Building Rent",
+    "type": "expense",
+    "schedule_c_line": "20b",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.rent_or_lease.vehicles_equipment",
+    "root": "business",
+    "parent_id": "business.rent_or_lease",
+    "name": "Vehicles & Equipment",
+    "type": "expense",
+    "schedule_c_line": "20a",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.repairs_maintenance",
+    "root": "business",
+    "parent_id": null,
+    "name": "Repairs & Maintenance",
+    "type": "expense",
+    "schedule_c_line": "21",
+    "schedule_e_line": "14"
+  },
+  {
+    "id": "business.repairs_maintenance.cleaning",
+    "root": "business",
+    "parent_id": "business.repairs_maintenance",
+    "name": "Cleaning",
+    "type": "expense",
+    "schedule_c_line": "21",
+    "schedule_e_line": "7"
+  },
+  {
+    "id": "business.repairs_maintenance.maintenance",
+    "root": "business",
+    "parent_id": "business.repairs_maintenance",
+    "name": "Maintenance",
+    "type": "expense",
+    "schedule_c_line": "21",
+    "schedule_e_line": "7"
+  },
+  {
+    "id": "business.repairs_maintenance.repairs",
+    "root": "business",
+    "parent_id": "business.repairs_maintenance",
+    "name": "Repairs",
+    "type": "expense",
+    "schedule_c_line": "21",
+    "schedule_e_line": "14"
+  },
+  {
+    "id": "business.repairs_maintenance.repairs_maintenance_other",
+    "root": "business",
+    "parent_id": "business.repairs_maintenance",
+    "name": "Repairs & Maintenance (Other)",
+    "type": "expense",
+    "schedule_c_line": "21",
+    "schedule_e_line": "14"
+  },
+  {
+    "id": "business.self_employed_health_insurance",
+    "root": "business",
+    "parent_id": null,
+    "name": "Self-Employed Health Insurance",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "business.taxes_licenses",
+    "root": "business",
+    "parent_id": null,
+    "name": "Taxes & Licenses",
+    "type": "expense",
+    "schedule_c_line": "23",
+    "schedule_e_line": "16"
+  },
+  {
+    "id": "business.taxes_licenses.licenses_permits",
+    "root": "business",
+    "parent_id": "business.taxes_licenses",
+    "name": "Licenses & Permits",
+    "type": "expense",
+    "schedule_c_line": "23",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.taxes_licenses.payroll_taxes",
+    "root": "business",
+    "parent_id": "business.taxes_licenses",
+    "name": "Payroll Taxes",
+    "type": "expense",
+    "schedule_c_line": "23",
+    "schedule_e_line": "16"
+  },
+  {
+    "id": "business.taxes_licenses.property_tax",
+    "root": "business",
+    "parent_id": "business.taxes_licenses",
+    "name": "Property Tax",
+    "type": "expense",
+    "schedule_c_line": "23",
+    "schedule_e_line": "16"
+  },
+  {
+    "id": "business.taxes_licenses.sales_tax",
+    "root": "business",
+    "parent_id": "business.taxes_licenses",
+    "name": "Sales Tax",
+    "type": "expense",
+    "schedule_c_line": "23",
+    "schedule_e_line": "16"
+  },
+  {
+    "id": "business.travel",
+    "root": "business",
+    "parent_id": null,
+    "name": "Travel",
+    "type": "expense",
+    "schedule_c_line": "24a",
+    "schedule_e_line": "6"
+  },
+  {
+    "id": "business.travel.airfare",
+    "root": "business",
+    "parent_id": "business.travel",
+    "name": "Airfare",
+    "type": "expense",
+    "schedule_c_line": "24a",
+    "schedule_e_line": "6"
+  },
+  {
+    "id": "business.travel.ground_transportation",
+    "root": "business",
+    "parent_id": "business.travel",
+    "name": "Ground Transportation",
+    "type": "expense",
+    "schedule_c_line": "24a",
+    "schedule_e_line": "6"
+  },
+  {
+    "id": "business.travel.lodging",
+    "root": "business",
+    "parent_id": "business.travel",
+    "name": "Lodging",
+    "type": "expense",
+    "schedule_c_line": "24a",
+    "schedule_e_line": "6"
+  },
+  {
+    "id": "business.travel.parking",
+    "root": "business",
+    "parent_id": "business.travel",
+    "name": "Parking",
+    "type": "expense",
+    "schedule_c_line": "24a",
+    "schedule_e_line": "6"
+  },
+  {
+    "id": "business.utilities",
+    "root": "business",
+    "parent_id": null,
+    "name": "Utilities",
+    "type": "expense",
+    "schedule_c_line": "25",
+    "schedule_e_line": "17"
+  },
+  {
+    "id": "business.utilities.gas_electric",
+    "root": "business",
+    "parent_id": "business.utilities",
+    "name": "Gas & Electric",
+    "type": "expense",
+    "schedule_c_line": "25",
+    "schedule_e_line": "17"
+  },
+  {
+    "id": "business.utilities.internet_cable",
+    "root": "business",
+    "parent_id": "business.utilities",
+    "name": "Internet & Cable",
+    "type": "expense",
+    "schedule_c_line": "25",
+    "schedule_e_line": "17"
+  },
+  {
+    "id": "business.utilities.mobile_phone",
+    "root": "business",
+    "parent_id": "business.utilities",
+    "name": "Mobile Phone",
+    "type": "expense",
+    "schedule_c_line": "25",
+    "schedule_e_line": "17"
+  },
+  {
+    "id": "business.utilities.phone",
+    "root": "business",
+    "parent_id": "business.utilities",
+    "name": "Phone",
+    "type": "expense",
+    "schedule_c_line": "25",
+    "schedule_e_line": "17"
+  },
+  {
+    "id": "business.utilities.trash",
+    "root": "business",
+    "parent_id": "business.utilities",
+    "name": "Trash",
+    "type": "expense",
+    "schedule_c_line": "25",
+    "schedule_e_line": "17"
+  },
+  {
+    "id": "business.utilities.utilities_other",
+    "root": "business",
+    "parent_id": "business.utilities",
+    "name": "Utilities (Other)",
+    "type": "expense",
+    "schedule_c_line": "25",
+    "schedule_e_line": "17"
+  },
+  {
+    "id": "business.utilities.water",
+    "root": "business",
+    "parent_id": "business.utilities",
+    "name": "Water",
+    "type": "expense",
+    "schedule_c_line": "25",
+    "schedule_e_line": "17"
+  },
+  {
+    "id": "business.wages_labor",
+    "root": "business",
+    "parent_id": null,
+    "name": "Wages & Labor",
+    "type": "expense",
+    "schedule_c_line": "26",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.wages_labor.contract_labor",
+    "root": "business",
+    "parent_id": "business.wages_labor",
+    "name": "Contract Labor",
+    "type": "expense",
+    "schedule_c_line": "11",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "business.wages_labor.w_2_wages",
+    "root": "business",
+    "parent_id": "business.wages_labor",
+    "name": "W-2 Wages",
+    "type": "expense",
+    "schedule_c_line": "26",
+    "schedule_e_line": "19"
+  },
+  {
+    "id": "personal.auto_transport",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Auto & Transport",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.auto_transport.car_insurance",
+    "root": "personal",
+    "parent_id": "personal.auto_transport",
+    "name": "Car Insurance",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.auto_transport.car_payment",
+    "root": "personal",
+    "parent_id": "personal.auto_transport",
+    "name": "Car Payment",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.auto_transport.car_wash",
+    "root": "personal",
+    "parent_id": "personal.auto_transport",
+    "name": "Car Wash",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.auto_transport.gas_fuel",
+    "root": "personal",
+    "parent_id": "personal.auto_transport",
+    "name": "Gas & Fuel",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.auto_transport.parking",
+    "root": "personal",
+    "parent_id": "personal.auto_transport",
+    "name": "Parking",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.auto_transport.public_transportation",
+    "root": "personal",
+    "parent_id": "personal.auto_transport",
+    "name": "Public Transportation",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.auto_transport.registration",
+    "root": "personal",
+    "parent_id": "personal.auto_transport",
+    "name": "Registration",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.auto_transport.rideshare",
+    "root": "personal",
+    "parent_id": "personal.auto_transport",
+    "name": "Rideshare",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.auto_transport.service_parts",
+    "root": "personal",
+    "parent_id": "personal.auto_transport",
+    "name": "Service & Parts",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.auto_transport.tolls",
+    "root": "personal",
+    "parent_id": "personal.auto_transport",
+    "name": "Tolls",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.auto_transport.vehicle_property_tax",
+    "root": "personal",
+    "parent_id": "personal.auto_transport",
+    "name": "Vehicle Property Tax",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.cash_atm",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Cash & ATM",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.charity_donations",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Charity & Donations",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.check",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Check",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.dining_drinks",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Dining & Drinks",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.dining_drinks.bars",
+    "root": "personal",
+    "parent_id": "personal.dining_drinks",
+    "name": "Bars",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.dining_drinks.coffee_shops",
+    "root": "personal",
+    "parent_id": "personal.dining_drinks",
+    "name": "Coffee Shops",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.dining_drinks.dining_out",
+    "root": "personal",
+    "parent_id": "personal.dining_drinks",
+    "name": "Dining Out",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.dining_drinks.fast_food",
+    "root": "personal",
+    "parent_id": "personal.dining_drinks",
+    "name": "Fast Food",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.dining_drinks.food_delivery",
+    "root": "personal",
+    "parent_id": "personal.dining_drinks",
+    "name": "Food Delivery",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.dining_drinks.restaurants",
+    "root": "personal",
+    "parent_id": "personal.dining_drinks",
+    "name": "Restaurants",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.education",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Education",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.education.books_supplies",
+    "root": "personal",
+    "parent_id": "personal.education",
+    "name": "Books & Supplies",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.education.student_loan",
+    "root": "personal",
+    "parent_id": "personal.education",
+    "name": "Student Loan",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.education.tuition",
+    "root": "personal",
+    "parent_id": "personal.education",
+    "name": "Tuition",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.entertainment",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Entertainment",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.entertainment.tourism",
+    "root": "personal",
+    "parent_id": "personal.entertainment",
+    "name": "Tourism",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.fees_charges",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Fees & Charges",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.fees_charges.atm_fee",
+    "root": "personal",
+    "parent_id": "personal.fees_charges",
+    "name": "ATM Fee",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.fees_charges.bank_fee",
+    "root": "personal",
+    "parent_id": "personal.fees_charges",
+    "name": "Bank Fee",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.fees_charges.finance_charge",
+    "root": "personal",
+    "parent_id": "personal.fees_charges",
+    "name": "Finance Charge",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.fees_charges.fraudulent_charge",
+    "root": "personal",
+    "parent_id": "personal.fees_charges",
+    "name": "Fraudulent Charge",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.fees_charges.late_fee",
+    "root": "personal",
+    "parent_id": "personal.fees_charges",
+    "name": "Late Fee",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.fees_charges.service_fee",
+    "root": "personal",
+    "parent_id": "personal.fees_charges",
+    "name": "Service Fee",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.fees_charges.tariffs",
+    "root": "personal",
+    "parent_id": "personal.fees_charges",
+    "name": "Tariffs",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.fees_charges.trade_commissions",
+    "root": "personal",
+    "parent_id": "personal.fees_charges",
+    "name": "Trade Commissions",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.fees_charges.traffic_ticket",
+    "root": "personal",
+    "parent_id": "personal.fees_charges",
+    "name": "Traffic Ticket",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.financial",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Financial",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.financial.financial_advisor",
+    "root": "personal",
+    "parent_id": "personal.financial",
+    "name": "Financial Advisor",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.financial.hsa_contribution",
+    "root": "personal",
+    "parent_id": "personal.financial",
+    "name": "HSA Contribution",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.financial.investment",
+    "root": "personal",
+    "parent_id": "personal.financial",
+    "name": "Investment",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.financial.ira_contribution",
+    "root": "personal",
+    "parent_id": "personal.financial",
+    "name": "IRA Contribution",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.financial.lending",
+    "root": "personal",
+    "parent_id": "personal.financial",
+    "name": "Lending",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.financial.life_insurance",
+    "root": "personal",
+    "parent_id": "personal.financial",
+    "name": "Life Insurance",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.financial.real_estate",
+    "root": "personal",
+    "parent_id": "personal.financial",
+    "name": "Real Estate",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.financial.tax_preparation",
+    "root": "personal",
+    "parent_id": "personal.financial",
+    "name": "Tax Preparation",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.fitness",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Fitness",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.fitness.gym",
+    "root": "personal",
+    "parent_id": "personal.fitness",
+    "name": "Gym",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.fitness.sports",
+    "root": "personal",
+    "parent_id": "personal.fitness",
+    "name": "Sports",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.fitness.workout_classes",
+    "root": "personal",
+    "parent_id": "personal.fitness",
+    "name": "Workout Classes",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.gifts",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Gifts",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.groceries",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Groceries",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.health",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Health",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.health.dentist",
+    "root": "personal",
+    "parent_id": "personal.health",
+    "name": "Dentist",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.health.doctor",
+    "root": "personal",
+    "parent_id": "personal.health",
+    "name": "Doctor",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.health.eyecare",
+    "root": "personal",
+    "parent_id": "personal.health",
+    "name": "Eyecare",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.health.health_insurance",
+    "root": "personal",
+    "parent_id": "personal.health",
+    "name": "Health Insurance",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.health.medicare_part_a_b",
+    "root": "personal",
+    "parent_id": "personal.health",
+    "name": "Medicare Part A & B",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.health.medicare_part_d",
+    "root": "personal",
+    "parent_id": "personal.health",
+    "name": "Medicare Part D",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.health.medigap",
+    "root": "personal",
+    "parent_id": "personal.health",
+    "name": "Medigap",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.health.pharmacy",
+    "root": "personal",
+    "parent_id": "personal.health",
+    "name": "Pharmacy",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.health.unreimbursed_drug",
+    "root": "personal",
+    "parent_id": "personal.health",
+    "name": "Unreimbursed Drug",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.health.unreimbursed_medical",
+    "root": "personal",
+    "parent_id": "personal.health",
+    "name": "Unreimbursed Medical",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.health.unreimbursed_travel",
+    "root": "personal",
+    "parent_id": "personal.health",
+    "name": "Unreimbursed Travel",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.health.vitamins_supplements",
+    "root": "personal",
+    "parent_id": "personal.health",
+    "name": "Vitamins/Supplements",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.home",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Home",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.home.furnishings",
+    "root": "personal",
+    "parent_id": "personal.home",
+    "name": "Furnishings",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.home.hoa_fees",
+    "root": "personal",
+    "parent_id": "personal.home",
+    "name": "HOA Fees",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.home.home_improvement",
+    "root": "personal",
+    "parent_id": "personal.home",
+    "name": "Home Improvement",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.home.home_insurance",
+    "root": "personal",
+    "parent_id": "personal.home",
+    "name": "Home Insurance",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.home.home_services",
+    "root": "personal",
+    "parent_id": "personal.home",
+    "name": "Home Services",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.home.home_supplies",
+    "root": "personal",
+    "parent_id": "personal.home",
+    "name": "Home Supplies",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.home.housekeeping",
+    "root": "personal",
+    "parent_id": "personal.home",
+    "name": "Housekeeping",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.home.lawn_garden",
+    "root": "personal",
+    "parent_id": "personal.home",
+    "name": "Lawn & Garden",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.home.mortgage",
+    "root": "personal",
+    "parent_id": "personal.home",
+    "name": "Mortgage",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.home.mortgage_interest",
+    "root": "personal",
+    "parent_id": "personal.home",
+    "name": "Mortgage Interest",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.home.rent",
+    "root": "personal",
+    "parent_id": "personal.home",
+    "name": "Rent",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.kids",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Kids",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.kids.allowance",
+    "root": "personal",
+    "parent_id": "personal.kids",
+    "name": "Allowance",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.kids.baby_supplies",
+    "root": "personal",
+    "parent_id": "personal.kids",
+    "name": "Baby Supplies",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.kids.babysitter_daycare",
+    "root": "personal",
+    "parent_id": "personal.kids",
+    "name": "Babysitter & Daycare",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.kids.child_support",
+    "root": "personal",
+    "parent_id": "personal.kids",
+    "name": "Child Support",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.kids.kids_activities",
+    "root": "personal",
+    "parent_id": "personal.kids",
+    "name": "Kids Activities",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.kids.toys",
+    "root": "personal",
+    "parent_id": "personal.kids",
+    "name": "Toys",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.loans",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Loans",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.loans.loan_fees_and_charges",
+    "root": "personal",
+    "parent_id": "personal.loans",
+    "name": "Loan Fees and Charges",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.loans.loan_insurance",
+    "root": "personal",
+    "parent_id": "personal.loans",
+    "name": "Loan Insurance",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.loans.loan_interest",
+    "root": "personal",
+    "parent_id": "personal.loans",
+    "name": "Loan Interest",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.loans.loan_payment",
+    "root": "personal",
+    "parent_id": "personal.loans",
+    "name": "Loan Payment",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.misc_expenses",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Misc Expenses",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.misc_expenses.mailbox_rental",
+    "root": "personal",
+    "parent_id": "personal.misc_expenses",
+    "name": "Mailbox Rental",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.misc_expenses.postage_and_shipping",
+    "root": "personal",
+    "parent_id": "personal.misc_expenses",
+    "name": "Postage and Shipping",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.misc_expenses.rewards_rebates",
+    "root": "personal",
+    "parent_id": "personal.misc_expenses",
+    "name": "Rewards & Rebates",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_care",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Personal Care",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_care.hair",
+    "root": "personal",
+    "parent_id": "personal.personal_care",
+    "name": "Hair",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_care.laundry",
+    "root": "personal",
+    "parent_id": "personal.personal_care",
+    "name": "Laundry",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_care.nail_salon",
+    "root": "personal",
+    "parent_id": "personal.personal_care",
+    "name": "Nail Salon",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_care.spa",
+    "root": "personal",
+    "parent_id": "personal.personal_care",
+    "name": "Spa",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_income",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Personal Income",
+    "type": "income",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_income.alimony",
+    "root": "personal",
+    "parent_id": "personal.personal_income",
+    "name": "Alimony",
+    "type": "income",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_income.bonus",
+    "root": "personal",
+    "parent_id": "personal.personal_income",
+    "name": "Bonus",
+    "type": "income",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_income.child_support",
+    "root": "personal",
+    "parent_id": "personal.personal_income",
+    "name": "Child Support",
+    "type": "income",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_income.dividend_income",
+    "root": "personal",
+    "parent_id": "personal.personal_income",
+    "name": "Dividend Income",
+    "type": "income",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_income.government_benefits",
+    "root": "personal",
+    "parent_id": "personal.personal_income",
+    "name": "Government Benefits",
+    "type": "income",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_income.interest_earned",
+    "root": "personal",
+    "parent_id": "personal.personal_income",
+    "name": "Interest Earned",
+    "type": "income",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_income.long_capital_gain",
+    "root": "personal",
+    "parent_id": "personal.personal_income",
+    "name": "Long Capital Gain",
+    "type": "income",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_income.other_income",
+    "root": "personal",
+    "parent_id": "personal.personal_income",
+    "name": "Other Income",
+    "type": "income",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_income.other_pension",
+    "root": "personal",
+    "parent_id": "personal.personal_income",
+    "name": "Other Pension",
+    "type": "income",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_income.paycheck",
+    "root": "personal",
+    "parent_id": "personal.personal_income",
+    "name": "Paycheck",
+    "type": "income",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_income.personal_sale",
+    "root": "personal",
+    "parent_id": "personal.personal_income",
+    "name": "Personal Sale",
+    "type": "income",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_income.rental_income",
+    "root": "personal",
+    "parent_id": "personal.personal_income",
+    "name": "Rental Income",
+    "type": "income",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_income.returned_purchase",
+    "root": "personal",
+    "parent_id": "personal.personal_income",
+    "name": "Returned Purchase",
+    "type": "income",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_income.short_capital_gain",
+    "root": "personal",
+    "parent_id": "personal.personal_income",
+    "name": "Short Capital Gain",
+    "type": "income",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_income.tax_refund",
+    "root": "personal",
+    "parent_id": "personal.personal_income",
+    "name": "Tax Refund",
+    "type": "income",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.personal_income.taxable_ira_withdrawal",
+    "root": "personal",
+    "parent_id": "personal.personal_income",
+    "name": "Taxable IRA Withdrawal",
+    "type": "income",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.pets",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Pets",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.pets.pet_food_supplies",
+    "root": "personal",
+    "parent_id": "personal.pets",
+    "name": "Pet Food & Supplies",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.pets.pet_grooming",
+    "root": "personal",
+    "parent_id": "personal.pets",
+    "name": "Pet Grooming",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.pets.veterinary",
+    "root": "personal",
+    "parent_id": "personal.pets",
+    "name": "Veterinary",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.shopping",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Shopping",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.shopping.books",
+    "root": "personal",
+    "parent_id": "personal.shopping",
+    "name": "Books",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.shopping.clothing",
+    "root": "personal",
+    "parent_id": "personal.shopping",
+    "name": "Clothing",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.shopping.electronics",
+    "root": "personal",
+    "parent_id": "personal.shopping",
+    "name": "Electronics",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.shopping.hobbies",
+    "root": "personal",
+    "parent_id": "personal.shopping",
+    "name": "Hobbies",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.shopping.membership_fees",
+    "root": "personal",
+    "parent_id": "personal.shopping",
+    "name": "Membership Fees",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.shopping.sporting_goods",
+    "root": "personal",
+    "parent_id": "personal.shopping",
+    "name": "Sporting Goods",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.shopping.streaming_service",
+    "root": "personal",
+    "parent_id": "personal.shopping",
+    "name": "Streaming Service",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.taxes",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Taxes",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.taxes.federal_estimated_tax_payment",
+    "root": "personal",
+    "parent_id": "personal.taxes",
+    "name": "Federal Estimated Tax Payment",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.taxes.federal_tax",
+    "root": "personal",
+    "parent_id": "personal.taxes",
+    "name": "Federal Tax",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.taxes.local_tax",
+    "root": "personal",
+    "parent_id": "personal.taxes",
+    "name": "Local Tax",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.taxes.personal_property_tax",
+    "root": "personal",
+    "parent_id": "personal.taxes",
+    "name": "Personal Property Tax",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.taxes.property_tax",
+    "root": "personal",
+    "parent_id": "personal.taxes",
+    "name": "Property Tax",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.taxes.sales_tax",
+    "root": "personal",
+    "parent_id": "personal.taxes",
+    "name": "Sales Tax",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.taxes.sdi",
+    "root": "personal",
+    "parent_id": "personal.taxes",
+    "name": "SDI",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.taxes.self_employment_tax",
+    "root": "personal",
+    "parent_id": "personal.taxes",
+    "name": "Self-Employment Tax",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.taxes.social_security",
+    "root": "personal",
+    "parent_id": "personal.taxes",
+    "name": "Social Security",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.taxes.state_estimated_tax_payment",
+    "root": "personal",
+    "parent_id": "personal.taxes",
+    "name": "State Estimated Tax Payment",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.taxes.state_tax",
+    "root": "personal",
+    "parent_id": "personal.taxes",
+    "name": "State Tax",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.travel",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Travel",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.travel.airfare",
+    "root": "personal",
+    "parent_id": "personal.travel",
+    "name": "Airfare",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.travel.baggage_fee",
+    "root": "personal",
+    "parent_id": "personal.travel",
+    "name": "Baggage Fee",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.travel.campground",
+    "root": "personal",
+    "parent_id": "personal.travel",
+    "name": "Campground",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.travel.hotel",
+    "root": "personal",
+    "parent_id": "personal.travel",
+    "name": "Hotel",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.travel.pass_fee",
+    "root": "personal",
+    "parent_id": "personal.travel",
+    "name": "Pass Fee",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.travel.rental_car_taxi",
+    "root": "personal",
+    "parent_id": "personal.travel",
+    "name": "Rental Car & Taxi",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.travel.rideshare",
+    "root": "personal",
+    "parent_id": "personal.travel",
+    "name": "Rideshare",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.travel.vacation",
+    "root": "personal",
+    "parent_id": "personal.travel",
+    "name": "Vacation",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.utilities",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Utilities",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.utilities.gas_electric",
+    "root": "personal",
+    "parent_id": "personal.utilities",
+    "name": "Gas & Electric",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.utilities.internet_cable",
+    "root": "personal",
+    "parent_id": "personal.utilities",
+    "name": "Internet & Cable",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.utilities.mobile_phone",
+    "root": "personal",
+    "parent_id": "personal.utilities",
+    "name": "Mobile Phone",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.utilities.phone",
+    "root": "personal",
+    "parent_id": "personal.utilities",
+    "name": "Phone",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.utilities.trash",
+    "root": "personal",
+    "parent_id": "personal.utilities",
+    "name": "Trash",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.utilities.utilities_other",
+    "root": "personal",
+    "parent_id": "personal.utilities",
+    "name": "Utilities (Other)",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.utilities.water",
+    "root": "personal",
+    "parent_id": "personal.utilities",
+    "name": "Water",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "personal.work_expenses",
+    "root": "personal",
+    "parent_id": null,
+    "name": "Work Expenses",
+    "type": "expense",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "transfers.balance_adjustment",
+    "root": "transfers",
+    "parent_id": null,
+    "name": "Balance Adjustment",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null,
+    "protected": true
+  },
+  {
+    "id": "transfers.opening_balance",
+    "root": "transfers",
+    "parent_id": null,
+    "name": "Opening Balance",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null,
+    "protected": true
+  },
+  {
+    "id": "transfers.transfer",
+    "root": "transfers",
+    "parent_id": null,
+    "name": "Transfer",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null,
+    "protected": true
+  },
+  {
+    "id": "transfers.transfer.investment_buy",
+    "root": "transfers",
+    "parent_id": "transfers.transfer",
+    "name": "Investment Buy",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "transfers.transfer.investment_deposit",
+    "root": "transfers",
+    "parent_id": "transfers.transfer",
+    "name": "Investment Deposit",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null,
+    "protected": true
+  },
+  {
+    "id": "transfers.transfer.investment_sell",
+    "root": "transfers",
+    "parent_id": "transfers.transfer",
+    "name": "Investment Sell",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "transfers.transfer.investment_withdrawal",
+    "root": "transfers",
+    "parent_id": "transfers.transfer",
+    "name": "Investment Withdrawal",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null,
+    "protected": true
+  },
+  {
+    "id": "transfers.transfer.loan_principal",
+    "root": "transfers",
+    "parent_id": "transfers.transfer",
+    "name": "Loan Principal",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "transfers.transfer.loan_proceeds",
+    "root": "transfers",
+    "parent_id": "transfers.transfer",
+    "name": "Loan Proceeds",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "transfers.transfer.mortgage_principal",
+    "root": "transfers",
+    "parent_id": "transfers.transfer",
+    "name": "Mortgage Principal",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "transfers.transfer.owner_s_contribution",
+    "root": "transfers",
+    "parent_id": "transfers.transfer",
+    "name": "Owner's Contribution",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "transfers.transfer.owner_s_draw",
+    "root": "transfers",
+    "parent_id": "transfers.transfer",
+    "name": "Owner's Draw",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "transfers.transfer.personal_loan",
+    "root": "transfers",
+    "parent_id": "transfers.transfer",
+    "name": "Personal Loan",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "transfers.transfer.promissory_note",
+    "root": "transfers",
+    "parent_id": "transfers.transfer",
+    "name": "Promissory Note",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "transfers.transfer.reimbursement",
+    "root": "transfers",
+    "parent_id": "transfers.transfer",
+    "name": "Reimbursement",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "transfers.transfer.sales_tax_collected",
+    "root": "transfers",
+    "parent_id": "transfers.transfer",
+    "name": "Sales Tax Collected",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "transfers.transfer.sales_tax_remitted",
+    "root": "transfers",
+    "parent_id": "transfers.transfer",
+    "name": "Sales Tax Remitted",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null
+  },
+  {
+    "id": "transfers.transfer.transfer_in",
+    "root": "transfers",
+    "parent_id": "transfers.transfer",
+    "name": "Transfer In",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null,
+    "protected": true
+  },
+  {
+    "id": "transfers.transfer.transfer_out",
+    "root": "transfers",
+    "parent_id": "transfers.transfer",
+    "name": "Transfer Out",
+    "type": "transfer",
+    "schedule_c_line": null,
+    "schedule_e_line": null,
+    "protected": true
+  }
+]

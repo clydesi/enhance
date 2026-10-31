@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "clyde": {
+      "type": "http",
+      "url": "https://app.clyde.si/mcp"
+    }
+  }
+}

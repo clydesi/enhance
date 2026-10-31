@@ -1,0 +1,50 @@
+{
+  "tool": "show_transactions",
+  "input": {
+    "transaction": "txn_4"
+  },
+  "answer": {
+    "row": {
+      "date": "Jan 30, 2027",
+      "account": "Everyday Checking",
+      "payee": "Lake Handyman",
+      "category_name": "Repairs",
+      "mark": "business",
+      "tags": "",
+      "notes": "",
+      "amount": "$260.00",
+      "direction": "out",
+      "asset": true,
+      "id": "txn_4",
+      "version": 1
+    },
+    "badges": [],
+    "facts": [
+      {
+        "key": "posted",
+        "value": "Jan 30, 2027"
+      },
+      {
+        "key": "statement_description",
+        "value": "LAKE HANDYMAN SVC"
+      },
+      {
+        "key": "account",
+        "value": "Everyday Checking"
+      },
+      {
+        "key": "for",
+        "value": "Rental House (Sch E L14)"
+      }
+    ],
+    "edit": {
+      "payee": "Lake Handyman",
+      "category_id": "business.repairs_maintenance.repairs",
+      "scope_id": "acct_9",
+      "tags": [],
+      "notes": ""
+    },
+    "splits": null,
+    "stamp": "1"
+  }
+}

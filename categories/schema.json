@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Enhance categories",
+  "description": "The category tree, parents before children: each entry's fields. lib/format/format.ts enforces this in CI and in Clyde's copy; validate.ts checks what spans entries: ids as name paths, parents first, frozen fields, retired ids.",
+  "type": "array",
+  "errorMessage": "a list of categories",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "root", "parent_id", "name", "type", "schedule_c_line", "schedule_e_line"],
+    "errorMessage": "a category: an object of its fields",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^(personal|business|transfers)(\\.[a-z0-9]+(_[a-z0-9]+)*){1,2}$",
+        "errorMessage": "a root (personal, business, or transfers), then one or two levels, each a dot and lowercase words of letters and digits joined by _"
+      },
+      "root": { "enum": ["personal", "business", "transfers"], "errorMessage": "personal, business, or transfers" },
+      "parent_id": {
+        "type": ["string", "null"],
+        "pattern": "^(personal|business|transfers)\\.[a-z0-9]+(_[a-z0-9]+)*$",
+        "errorMessage": "null, or a top-level category's id: a root, a dot, and lowercase words of letters and digits joined by _"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 40,
+        "pattern": "^[A-Za-z0-9][A-Za-z0-9&'\\-\\/(),]*( [A-Za-z0-9&'\\-\\/(),]+)*$",
+        "errorMessage": "1 to 40 characters starting with a letter or digit: letters, digits, single spaces, and the symbols & ' - / ( ) and comma"
+      },
+      "type": { "enum": ["expense", "income", "transfer"], "errorMessage": "expense, income, or transfer" },
+      "schedule_c_line": {
+        "type": ["string", "null"],
+        "pattern": "^[1-9][0-9]?[a-z]?$",
+        "errorMessage": "null, or a line number from 1 to 99 with an optional lowercase letter, such as \"8\" or \"24a\""
+      },
+      "schedule_e_line": {
+        "type": ["string", "null"],
+        "pattern": "^[1-9][0-9]?[a-z]?$",
+        "errorMessage": "null, or a line number from 1 to 99 with an optional lowercase letter, such as \"8\" or \"24a\""
+      },
+      "protected": { "const": true, "errorMessage": "true, or left out" }
+    }
+  }
+}

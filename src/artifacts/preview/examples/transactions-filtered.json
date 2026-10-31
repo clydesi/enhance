@@ -1,0 +1,101 @@
+{
+  "tool": "show_transactions",
+  "input": {
+    "account": "acct_3",
+    "limit": 3
+  },
+  "answer": {
+    "heading": "212 matches",
+    "chip": "Travel Rewards Card",
+    "next": {
+      "offset": 3
+    },
+    "sections": [
+      {
+        "label": "Pending",
+        "rows": [
+          {
+            "pending": true,
+            "number": "P1",
+            "date": "Jan 31, 2027",
+            "account": "Travel Rewards Card",
+            "payee": "RIDESHARE *TRIP",
+            "category": "Pending",
+            "statement_description": "RIDESHARE *TRIP",
+            "tags": "",
+            "notes": "",
+            "amount": "$24.10",
+            "direction": "out",
+            "seen": "Jan 31, 2027"
+          }
+        ]
+      },
+      {
+        "label": "January 2027",
+        "rows": [
+          {
+            "number": "1",
+            "date": "Jan 31, 2027",
+            "account": "Travel Rewards Card",
+            "payee": "Online Marketplace",
+            "category_name": "Split",
+            "mark": "split_business",
+            "tags": "",
+            "notes": "",
+            "amount": "$184.97",
+            "direction": "out",
+            "business": true,
+            "id": "txn_2",
+            "version": 1
+          },
+          {
+            "number": "2",
+            "date": "Jan 30, 2027",
+            "account": "Travel Rewards Card",
+            "payee": "Department Store",
+            "category_name": "Clothing",
+            "tags": "",
+            "notes": "",
+            "amount": "$318.40",
+            "direction": "out",
+            "id": "txn_5",
+            "version": 1,
+            "badges": [
+              {
+                "key": "flagged",
+                "text": "Flagged",
+                "meaning": "warning"
+              }
+            ]
+          },
+          {
+            "number": "3",
+            "date": "Jan 30, 2027",
+            "account": "Travel Rewards Card",
+            "payee": "Harvest Kitchen",
+            "category_name": "Restaurants",
+            "tags": "",
+            "notes": "",
+            "amount": "$86.40",
+            "direction": "out",
+            "id": "txn_6",
+            "version": 1,
+            "badges": [
+              {
+                "key": "new",
+                "text": "New",
+                "meaning": "information"
+              },
+              {
+                "key": "possible_duplicate",
+                "text": "Possible duplicate",
+                "meaning": "warning"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "stamp": "1"
+  }
+}

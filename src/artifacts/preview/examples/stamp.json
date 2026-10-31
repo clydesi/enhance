@@ -1,0 +1,9 @@
+{
+  "tool": "show_transactions",
+  "input": {
+    "stamp": true
+  },
+  "answer": {
+    "stamp": "1"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Enhance rules",
+  "description": "Rules in run order: each entry's fields. lib/format/format.ts enforces this in CI and in Clyde's copy, with each pattern's syntax and LIKE form; validate.ts checks what spans entries: categories, effects, samples, retired ids.",
+  "type": "array",
+  "errorMessage": "a list of rules",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id"],
+    "errorMessage": "a rule: an object of its fields",
+    "properties": {
+      "id": {
+        "type": "string",
+        "maxLength": 60,
+        "pattern": "^(?!rul_)[a-z0-9]+(_[a-z0-9]+)*(\\.[a-z0-9]+(_[a-z0-9]+)*)?$",
+        "errorMessage": "up to 60 characters in one or two levels, each lowercase words of letters and digits joined by _, levels joined by a dot, not starting rul_"
+      },
+      "match": {
+        "type": "object",
+        "additionalProperties": false,
+        "minProperties": 1,
+        "errorMessage": "a description pattern, an account pattern, or both",
+        "properties": {
+          "direction": { "enum": ["in", "out"], "errorMessage": "in for money in, out for money out, or left out for either" },
+          "account_types": {
+            "type": "array",
+            "minItems": 1,
+            "errorMessage": "a list of at least one account type group, or left out for any account",
+            "items": { "enum": ["bank", "credit", "investments", "assets", "liability", "business_payments"], "errorMessage": "bank, credit, investments, assets, liability, or business_payments" }
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200,
+            "pattern": "^[A-Z0-9 &'\\-.+\\/#*^$|\\\\]+$",
+            "errorMessage": "1 to 200 characters: uppercase letters, digits, spaces, the symbols & ' - . + / #, and the pattern characters * ^ $ | \\"
+          },
+          "account": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200,
+            "pattern": "^[A-Z0-9 &'\\-.+\\/#*^$|\\\\]+$",
+            "errorMessage": "1 to 200 characters: uppercase letters, digits, spaces, the symbols & ' - . + / #, and the pattern characters * ^ $ | \\"
+          }
+        }
+      },
+      "set": {
+        "type": "object",
+        "additionalProperties": false,
+        "minProperties": 1,
+        "errorMessage": "a payee, a category_id, a business_category_id, or a mix of them",
+        "properties": {
+          "payee": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 60,
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9&'\\-\\/(),.+]*( [A-Za-z0-9&'\\-\\/(),.+]+)*$",
+            "errorMessage": "1 to 60 characters starting with a letter or digit: letters, digits, single spaces, and the symbols & ' - / ( ) comma period +"
+          },
+          "category_id": {
+            "type": "string",
+            "pattern": "^(personal|business|transfers)(\\.[a-z0-9]+(_[a-z0-9]+)*){1,2}$",
+            "errorMessage": "a category's id: a root (personal, business, or transfers), then one or two levels, each a dot and lowercase words of letters and digits joined by _"
+          },
+          "business_category_id": {
+            "type": "string",
+            "pattern": "^business(\\.[a-z0-9]+(_[a-z0-9]+)*){1,2}$",
+            "errorMessage": "a business category's id: business, then one or two levels, each a dot and lowercase words of letters and digits joined by _"
+          }
+        }
+      },
+      "samples": {
+        "type": "array",
+        "minItems": 1,
+        "errorMessage": "a list of at least one statement text",
+        "items": { "type": "string", "minLength": 1, "maxLength": 200, "pattern": "^[\\x20-\\x7e]+$", "errorMessage": "1 to 200 characters of plain ASCII" }
+      },
+      "protected": { "const": true, "errorMessage": "true, or left out" }
+    }
+  }
+}

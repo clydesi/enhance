@@ -1,0 +1,508 @@
+{
+  "tool": "show_transactions",
+  "input": {
+    "menus": true
+  },
+  "answer": {
+    "menus": {
+      "categories": [
+        {
+          "id": "personal.auto_transport",
+          "name": "Auto & Transport",
+          "root": "personal",
+          "parent_id": null
+        },
+        {
+          "id": "personal.auto_transport.gas_fuel",
+          "name": "Gas & Fuel",
+          "root": "personal",
+          "parent_id": "personal.auto_transport"
+        },
+        {
+          "id": "personal.auto_transport.parking",
+          "name": "Parking",
+          "root": "personal",
+          "parent_id": "personal.auto_transport"
+        },
+        {
+          "id": "personal.auto_transport.public_transportation",
+          "name": "Public Transportation",
+          "root": "personal",
+          "parent_id": "personal.auto_transport"
+        },
+        {
+          "id": "personal.auto_transport.rideshare",
+          "name": "Rideshare",
+          "root": "personal",
+          "parent_id": "personal.auto_transport"
+        },
+        {
+          "id": "personal.dining_drinks",
+          "name": "Dining & Drinks",
+          "root": "personal",
+          "parent_id": null
+        },
+        {
+          "id": "personal.dining_drinks.bars",
+          "name": "Bars",
+          "root": "personal",
+          "parent_id": "personal.dining_drinks"
+        },
+        {
+          "id": "personal.dining_drinks.coffee_shops",
+          "name": "Coffee Shops",
+          "root": "personal",
+          "parent_id": "personal.dining_drinks"
+        },
+        {
+          "id": "personal.dining_drinks.dining_out",
+          "name": "Dining Out",
+          "root": "personal",
+          "parent_id": "personal.dining_drinks"
+        },
+        {
+          "id": "personal.dining_drinks.fast_food",
+          "name": "Fast Food",
+          "root": "personal",
+          "parent_id": "personal.dining_drinks"
+        },
+        {
+          "id": "personal.dining_drinks.food_delivery",
+          "name": "Food Delivery",
+          "root": "personal",
+          "parent_id": "personal.dining_drinks"
+        },
+        {
+          "id": "personal.dining_drinks.restaurants",
+          "name": "Restaurants",
+          "root": "personal",
+          "parent_id": "personal.dining_drinks"
+        },
+        {
+          "id": "personal.fitness",
+          "name": "Fitness",
+          "root": "personal",
+          "parent_id": null
+        },
+        {
+          "id": "personal.fitness.gym",
+          "name": "Gym",
+          "root": "personal",
+          "parent_id": "personal.fitness"
+        },
+        {
+          "id": "personal.groceries",
+          "name": "Groceries",
+          "root": "personal",
+          "parent_id": null
+        },
+        {
+          "id": "personal.health",
+          "name": "Health",
+          "root": "personal",
+          "parent_id": null
+        },
+        {
+          "id": "personal.health.pharmacy",
+          "name": "Pharmacy",
+          "root": "personal",
+          "parent_id": "personal.health"
+        },
+        {
+          "id": "personal.home",
+          "name": "Home",
+          "root": "personal",
+          "parent_id": null
+        },
+        {
+          "id": "personal.home.hoa_fees",
+          "name": "HOA Fees",
+          "root": "personal",
+          "parent_id": "personal.home"
+        },
+        {
+          "id": "personal.home.home_supplies",
+          "name": "Home Supplies",
+          "root": "personal",
+          "parent_id": "personal.home"
+        },
+        {
+          "id": "personal.home.rent",
+          "name": "Rent",
+          "root": "personal",
+          "parent_id": "personal.home"
+        },
+        {
+          "id": "personal.personal_income",
+          "name": "Personal Income",
+          "root": "personal",
+          "parent_id": null
+        },
+        {
+          "id": "personal.personal_income.dividend_income",
+          "name": "Dividend Income",
+          "root": "personal",
+          "parent_id": "personal.personal_income"
+        },
+        {
+          "id": "personal.personal_income.interest_earned",
+          "name": "Interest Earned",
+          "root": "personal",
+          "parent_id": "personal.personal_income"
+        },
+        {
+          "id": "personal.personal_income.paycheck",
+          "name": "Paycheck",
+          "root": "personal",
+          "parent_id": "personal.personal_income"
+        },
+        {
+          "id": "personal.shopping",
+          "name": "Shopping",
+          "root": "personal",
+          "parent_id": null
+        },
+        {
+          "id": "personal.shopping.books",
+          "name": "Books",
+          "root": "personal",
+          "parent_id": "personal.shopping"
+        },
+        {
+          "id": "personal.shopping.clothing",
+          "name": "Clothing",
+          "root": "personal",
+          "parent_id": "personal.shopping"
+        },
+        {
+          "id": "personal.shopping.membership_fees",
+          "name": "Membership Fees",
+          "root": "personal",
+          "parent_id": "personal.shopping"
+        },
+        {
+          "id": "personal.shopping.streaming_service",
+          "name": "Streaming Service",
+          "root": "personal",
+          "parent_id": "personal.shopping"
+        },
+        {
+          "id": "personal.travel",
+          "name": "Travel",
+          "root": "personal",
+          "parent_id": null
+        },
+        {
+          "id": "personal.travel.hotel",
+          "name": "Hotel",
+          "root": "personal",
+          "parent_id": "personal.travel"
+        },
+        {
+          "id": "personal.utilities",
+          "name": "Utilities",
+          "root": "personal",
+          "parent_id": null
+        },
+        {
+          "id": "personal.utilities.gas_electric",
+          "name": "Gas & Electric",
+          "root": "personal",
+          "parent_id": "personal.utilities"
+        },
+        {
+          "id": "personal.utilities.internet_cable",
+          "name": "Internet & Cable",
+          "root": "personal",
+          "parent_id": "personal.utilities"
+        },
+        {
+          "id": "personal.utilities.mobile_phone",
+          "name": "Mobile Phone",
+          "root": "personal",
+          "parent_id": "personal.utilities"
+        },
+        {
+          "id": "business.business_income",
+          "name": "Business Income",
+          "root": "business",
+          "parent_id": null
+        },
+        {
+          "id": "business.business_income.consulting_income",
+          "name": "Consulting Income",
+          "root": "business",
+          "parent_id": "business.business_income"
+        },
+        {
+          "id": "business.business_income.rents_received",
+          "name": "Rents Received",
+          "root": "business",
+          "parent_id": "business.business_income"
+        },
+        {
+          "id": "business.commissions_fees",
+          "name": "Commissions & Fees",
+          "root": "business",
+          "parent_id": null
+        },
+        {
+          "id": "business.commissions_fees.property_management",
+          "name": "Property Management",
+          "root": "business",
+          "parent_id": "business.commissions_fees"
+        },
+        {
+          "id": "business.debt_interest",
+          "name": "Debt & Interest",
+          "root": "business",
+          "parent_id": null
+        },
+        {
+          "id": "business.debt_interest.mortgage_interest",
+          "name": "Mortgage Interest",
+          "root": "business",
+          "parent_id": "business.debt_interest"
+        },
+        {
+          "id": "business.insurance_other_than_health",
+          "name": "Insurance, other than health",
+          "root": "business",
+          "parent_id": null
+        },
+        {
+          "id": "business.meals_clients_or_travel",
+          "name": "Meals (clients or travel)",
+          "root": "business",
+          "parent_id": null
+        },
+        {
+          "id": "business.office_expenses",
+          "name": "Office Expenses",
+          "root": "business",
+          "parent_id": null
+        },
+        {
+          "id": "business.office_expenses.printing",
+          "name": "Printing",
+          "root": "business",
+          "parent_id": "business.office_expenses"
+        },
+        {
+          "id": "business.office_expenses.software",
+          "name": "Software",
+          "root": "business",
+          "parent_id": "business.office_expenses"
+        },
+        {
+          "id": "business.office_expenses.web_services",
+          "name": "Web Services",
+          "root": "business",
+          "parent_id": "business.office_expenses"
+        },
+        {
+          "id": "business.office_supplies",
+          "name": "Office Supplies",
+          "root": "business",
+          "parent_id": null
+        },
+        {
+          "id": "business.rent_or_lease",
+          "name": "Rent or Lease",
+          "root": "business",
+          "parent_id": null
+        },
+        {
+          "id": "business.rent_or_lease.building_rent",
+          "name": "Building Rent",
+          "root": "business",
+          "parent_id": "business.rent_or_lease"
+        },
+        {
+          "id": "business.repairs_maintenance",
+          "name": "Repairs & Maintenance",
+          "root": "business",
+          "parent_id": null
+        },
+        {
+          "id": "business.repairs_maintenance.cleaning",
+          "name": "Cleaning",
+          "root": "business",
+          "parent_id": "business.repairs_maintenance"
+        },
+        {
+          "id": "business.repairs_maintenance.repairs",
+          "name": "Repairs",
+          "root": "business",
+          "parent_id": "business.repairs_maintenance"
+        },
+        {
+          "id": "business.taxes_licenses",
+          "name": "Taxes & Licenses",
+          "root": "business",
+          "parent_id": null
+        },
+        {
+          "id": "business.taxes_licenses.property_tax",
+          "name": "Property Tax",
+          "root": "business",
+          "parent_id": "business.taxes_licenses"
+        },
+        {
+          "id": "business.travel",
+          "name": "Travel",
+          "root": "business",
+          "parent_id": null
+        },
+        {
+          "id": "business.travel.airfare",
+          "name": "Airfare",
+          "root": "business",
+          "parent_id": "business.travel"
+        },
+        {
+          "id": "business.travel.lodging",
+          "name": "Lodging",
+          "root": "business",
+          "parent_id": "business.travel"
+        },
+        {
+          "id": "business.utilities",
+          "name": "Utilities",
+          "root": "business",
+          "parent_id": null
+        },
+        {
+          "id": "business.utilities.gas_electric",
+          "name": "Gas & Electric",
+          "root": "business",
+          "parent_id": "business.utilities"
+        },
+        {
+          "id": "business.utilities.water",
+          "name": "Water",
+          "root": "business",
+          "parent_id": "business.utilities"
+        },
+        {
+          "id": "transfers.opening_balance",
+          "name": "Opening Balance",
+          "root": "transfers",
+          "parent_id": null
+        },
+        {
+          "id": "transfers.transfer",
+          "name": "Transfer",
+          "root": "transfers",
+          "parent_id": null
+        },
+        {
+          "id": "transfers.transfer.investment_deposit",
+          "name": "Investment Deposit",
+          "root": "transfers",
+          "parent_id": "transfers.transfer"
+        },
+        {
+          "id": "transfers.transfer.mortgage_principal",
+          "name": "Mortgage Principal",
+          "root": "transfers",
+          "parent_id": "transfers.transfer"
+        },
+        {
+          "id": "transfers.transfer.owner_s_draw",
+          "name": "Owner's Draw",
+          "root": "transfers",
+          "parent_id": "transfers.transfer"
+        },
+        {
+          "id": "transfers.transfer.transfer_in",
+          "name": "Transfer In",
+          "root": "transfers",
+          "parent_id": "transfers.transfer"
+        },
+        {
+          "id": "transfers.transfer.transfer_out",
+          "name": "Transfer Out",
+          "root": "transfers",
+          "parent_id": "transfers.transfer"
+        }
+      ],
+      "scopes": [
+        {
+          "id": "ent_1",
+          "name": "Design Studio LLC",
+          "business": true
+        },
+        {
+          "id": "acct_9",
+          "name": "Rental House",
+          "asset": true
+        }
+      ],
+      "payees": [
+        "Roastery Cafe",
+        "Fresh Market",
+        "Rideshare Co",
+        "Salad Bar",
+        "Payment received",
+        "Corner Grocery",
+        "Everyday Checking",
+        "Online Marketplace",
+        "Food Delivery Co",
+        "Gas Station",
+        "Harvest Kitchen",
+        "City Parking",
+        "Diner on Main",
+        "Employer Payroll",
+        "Lakeside Cleaning",
+        "Owner's draw",
+        "Vacation Rentals",
+        "Neighborhood Grocer",
+        "Holiday Savings",
+        "Brokerage",
+        "City Electric",
+        "City Gas",
+        "Client One",
+        "Cloud Storage",
+        "Code Hosting",
+        "Corner Lounge",
+        "Coworking Space",
+        "Daily News",
+        "Design Tool",
+        "Fitness Club",
+        "High-Yield Savings",
+        "Home Goods Store",
+        "Interest",
+        "Internet Provider",
+        "Lake Power & Light",
+        "Lakeside Property Management",
+        "Mobile Carrier",
+        "Mortgage Servicer",
+        "Oak Street Apartments",
+        "Office Suite",
+        "Pharmacy",
+        "Steakhouse",
+        "Streaming Music",
+        "Streaming Video",
+        "Transit Card",
+        "Cash Back Card",
+        "Premium Card",
+        "Travel Rewards Card",
+        "Department Store",
+        "Client Two",
+        "Dividend",
+        "Lake Water Utility",
+        "Downtown Hotel",
+        "Airline",
+        "County Treasurer",
+        "Home Insurance Co",
+        "Lake Handyman",
+        "Lakeview Neighborhood Community Association Recreation and Facilities Fund",
+        "PAYMENT *CRAFTMARKET",
+        "Print Shop",
+        "Warehouse Club"
+      ]
+    },
+    "stamp": "1"
+  }
+}

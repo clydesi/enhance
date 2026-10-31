@@ -1,0 +1,23 @@
+{
+  "name": "clyde",
+  "displayName": "Clyde Intelligence",
+  "version": "0.1.0",
+  "description": "One ledger, every AI app. Clyde is a ledger as a service for your personal, LLC, and rental property finances. Ask your agent and see it your way.",
+  "author": {
+    "name": "Clyde Intelligence",
+    "email": "info@clyde.si",
+    "url": "https://www.clyde.si"
+  },
+  "homepage": "https://www.clyde.si",
+  "repository": "https://github.com/clydesi/enhance",
+  "license": "Apache-2.0",
+  "keywords": [
+    "personal-finance",
+    "bookkeeping",
+    "mcp"
+  ],
+  "icon": "./logo.png",
+  "documentationUrl": "https://www.clyde.si/docs/mcp",
+  "privacyPolicyUrl": "https://www.clyde.si/product-privacy",
+  "termsOfServiceUrl": "https://www.clyde.si/product-terms"
+}
